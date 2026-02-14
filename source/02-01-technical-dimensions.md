@@ -6,7 +6,7 @@ In EVERSE, we structure the discussion around research software quality with thr
 
 ![Figure 1: Main research software quality concepts, together with an example](../figures/figure1-quality-concepts.png)
 
-The EVERSE Framework encompasses eleven main dimensions of research software quality, derived from established standards and research software best practices. These consist of nine technical dimensions based on ISO/IEC standards, plus FAIRness, Open Source Software, and Sustainability dimensions that reflect the unique requirements of research software. Each dimension is described in the sections that follow.
+The EVERSE Framework encompasses twelve main dimensions of research software quality, derived from established standards and research software best practices. These consist of nine technical dimensions based on ISO/IEC standards, plus FAIRness, Open Source Software, and Sustainability dimensions that reflect the unique requirements of research software. Each dimension is described in the sections that follow.
 
 ## 2.1 Technical Dimensions of Software Quality
 
@@ -76,49 +76,6 @@ At the March 2025 EVERSE General Assembly, the several available options listed 
   - Authenticity - Degree to which the identity of a subject or resource can be proved to be the one claimed.
   - Resistance - Degree to which the product or system sustains operations while under attack from a malicious actor.
 
-### 2.1.2 EOSC Task Force | Ensure Software Quality
+### 2.1.2 Research Software Quality Indicators
 
-The EOSC report on infrastructures for quality research software [5] identifies 25 main quality dimensions for research software, based on the above-mentioned ISO standards [1] 39 sub-categories and other relevant quality dimension glossaries [2]. While we do not currently use these categories in the RSQKit at this granularity, they merit discussion for two reasons: a. these categories have been deemed most relevant specifically for research and b. they more directly illustrate the practical applicability of the ISO categories, since they are more concrete. Therefore, we could also do a more in-depth analysis of how these dimensions find use in the research software quality landscape already in the table 1 below.
-
-**Quality dimensions:**
-
-- **Controllability**: degree to which a product or system can be used by people with the widest range of characteristics and capabilities to achieve a specified goal in a specified context of use.
-- **Attractiveness**: renamed as user interface aesthetics. Degree to which a user interface enables pleasing and satisfying interaction for the user.
-- **Availability**: degree to which a system, product or component is operational and accessible when required for use.
-- **Confidentiality**: degree to which a product or system ensures that data are accessible only to those authorised to have access.
-- **Compatibility**: degree to which a product, system or component can exchange information with other products, systems or components, and/or perform its required functions, while sharing the same hardware or software environment.
-- **Ease of use (Usability)**: degree to which a product or system can be used by specified users to achieve specific goals with effectiveness, efficiency and satisfaction in a specified context of use.
-- **Extensibility**: degree to which software can be easily extended.
-- **Fault tolerance**: degree to which a system, product, or component operates as intended despite the presence of hardware or software faults.
-- **Functional suitability**: degree to which a product or system provides functions that meet stated and implied needs when used under specified conditions.
-- **Installability**: degree of effectiveness and efficiency with which a product or system can be successfully installed and/or uninstalled in a specified environment.
-- **Interoperability**: degree to which two or more systems, products or components can exchange information and use the information that has been exchanged.
-- **Maintainability**: degree of effectiveness and efficiency with which a product or system can be modified to correct defects or adapt to changing requirements by the intended maintainers.
-- **Modifiability**: degree to which a product or system can be effectively and efficiently modified without introducing defects or degrading existing product quality.
-- **Modularity**: degree to which the software is composed of discrete components.
-- **Operability / Manageability**: degree to which a product or system has attributes that make it easy to operate and control.
-- **Performance Efficiency**: performance relative to the number of resources used under stated conditions. An additional aspect that has been gaining attention since the report that is related to performance efficiency is energy efficiency, or software that uses the least amount of energy possible [X/13].
-- **Portability / Adaptability**: degree of effectiveness and efficiency with which a system, product or component can be transferred from one hardware, software or other operational or usage environment to another.
-- **Recoverability**: degree to which, in the event of an interruption or a failure, a product or system can recover the data directly affected and re-establish the desired state of the system.
-- **Reliability**: degree to which a system, product or component performs specified functions under specified conditions for a specified period of time.
-- **Resource utilisation**: degree to which the amounts and types of resources used by a product or system, when performing its functions, meet requirements.
-- **Reusability**: degree to which an asset can be used in more than one system, or in building other assets.
-- **Robustness**: degree to which a system is able to handle errors and boundary conditions.
-- **Safety**: degree to which a product or system mitigates the potential risk to people in the intended contexts of use.
-- **Scalability**: degree to which a system performs and operates as the number of user requests increases.
-- **Security**: degree to which a product or system protects information and data so that persons or other products or systems have the degree of data access appropriate to their types and levels of authorisation.
-- **Supportability**: 1.) Supportability is the ability of the system to provide information helpful for identifying and resolving issues when it fails to work correctly [10] OR 2.) Existence of a helpdesk or issue tracking, bug reporting, enhancements and general support.
-- **Testability**: degree of effectiveness and efficiency with which test criteria can be established for a system, product or component and tests can be performed to determine whether those criteria have been met.
-- **Time Behaviour**: degree to which the response and processing times and throughput rates of a product or system, when performing its functions, meet requirements.
-
-These sub-dimensions are related to the top-level dimensions as follows (note that this mapping is not the precise ISO/IEC 25010 mapping, because the EOSC-RS categories are not exactly the same):
-
-1. Compatibility: Compatibility (sub), Interoperability
-2. Flexibility: Portability / Adaptability, Scalability, Installability, Extensibility
-3. Functional suitability: Functional suitability (sub), Ease of use / Usability (overlaps with Interaction capability)
-4. Interaction capability: Operability / Manageability, Robustness, Attractiveness, Accessibility, Controllability
-5. Maintainability: Modularity, Reusability, Maintainability (sub), Modifiability, Testability, Supportability
-6. Performance efficiency: Time behavior, Resource utilization, Performance efficiency (sub)
-7. Reliability: Reliability (sub), Availability, Fault tolerance, Recoverability
-8. Safety: Safety (sub)
-9. Security: Confidentiality, Security (sub)
+The EVERSE indicators repository provides the canonical, up-to-date list of quality dimensions and their associated indicators: [https://everse.software/indicators/](https://everse.software/indicators/).
