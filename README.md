@@ -81,7 +81,7 @@ The RF provides conceptual foundations whilst these tools enable practical imple
 ## Versions
 
 - **v2.0** (July 2025): Twelve quality dimensions established (nine technical plus FAIR, Open Source Software, and Sustainability)
-- **v3.0** (target February 2026): Refinement and integration of community feedback
+- **v3.0** (target Summer 2026): Refinement and integration of community feedback
 
 ## Contact
 
