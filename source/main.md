@@ -29,11 +29,11 @@ version: "2.0"
   mkdir -p ../build
 
   Merged markdown:
-    pandoc --from markdown --to markdown --standalone $INPUTS -o ../build/merged.md
+    pandoc --from markdown --to markdown --standalone --resource-path=.:../figures $INPUTS -o ../build/merged.md
 
   PDF (requires texlive-full or equivalent):
-    pandoc --from markdown --to pdf --pdf-engine=pdflatex --standalone --toc $INPUTS -o ../build/reference-framework.pdf
+    pandoc --from markdown --to pdf --pdf-engine=pdflatex --standalone --toc --resource-path=.:../figures $INPUTS -o ../build/reference-framework.pdf
 
   HTML:
-    pandoc --from markdown --to html --standalone --toc $INPUTS -o ../build/reference-framework.html
+    pandoc --from markdown --to html --standalone --toc --resource-path=.:../figures $INPUTS -o ../build/reference-framework.html
 -->
