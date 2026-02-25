@@ -19,8 +19,9 @@ The framework targets multiple stakeholder groups through four complementary vie
 ## Current version
 
 **Version 2.0** (published July 2025)
-- DOI: [Add Zenodo DOI here]
-- Published on Zenodo: [Add Zenodo link here]
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15856368.svg)](https://doi.org/10.5281/zenodo.15856368)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ## Repository structure
 
@@ -107,7 +108,7 @@ For questions about the Reference Framework, contact the EVERSE Task Force 2 tea
 
 ## Licence
 
-[Add licence information]
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 ## Acknowledgements
 
