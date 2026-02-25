@@ -26,12 +26,30 @@ The framework targets multiple stakeholder groups through four complementary vie
 
 ```
 reference-framework/
-├── README.md                          # This file
+├── README.md
+├── CONTRIBUTING.md
+├── LICENSE
 ├── source/
-│   ├── main.md                        # Main RF content
-│   └── metadata.yml                   # Document metadata
-├── figures/                           # Diagrams and images
-└── CONTRIBUTING.md                    # How to contribute
+│   ├── main.md                        # Master document and build commands
+│   ├── 01-introduction/
+│   │   └── index.md
+│   ├── 02-framework/
+│   │   ├── index.md                   # Section 2 introduction
+│   │   ├── technical-dimensions.md
+│   │   ├── fair.md
+│   │   ├── open-source-software.md
+│   │   └── sustainability.md
+│   ├── 03-views/
+│   │   ├── index.md                   # Section 3 introduction
+│   │   ├── three-tiers.md
+│   │   ├── software-lifecycle.md
+│   │   ├── personas.md
+│   │   └── science-clusters.md
+│   ├── 04-conclusions/
+│   │   └── index.md
+│   └── figures/                       # Diagrams and images
+└── assets/
+    └── EVERSE_reference_framework_v2.pdf
 ```
 
 ## Development workflow
