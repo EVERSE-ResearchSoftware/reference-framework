@@ -102,6 +102,10 @@ The RF provides conceptual foundations whilst these tools enable practical imple
 - **v2.0** (July 2025): Twelve quality dimensions established (nine technical plus FAIR, Open Source Software, and Sustainability)
 - **v3.0** (target Summer 2026): Refinement and integration of community feedback
 
+## How to cite
+
+> EVERSE Consortium. (2025). EVERSE Reference Framework for Research Software Quality (v2.0). Zenodo. https://doi.org/10.5281/zenodo.15856368
+
 ## Contact
 
 For questions about the Reference Framework, contact the EVERSE Task Force 2 team or open an issue in this repository.
