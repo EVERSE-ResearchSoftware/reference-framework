@@ -7,6 +7,7 @@ version: "2.0"
 
 ```include
 01-introduction/index.md
+02-framework/index.md
 02-framework/technical-dimensions.md
 02-framework/fair.md
 02-framework/open-source-software.md
@@ -22,7 +23,7 @@ version: "2.0"
   Run from this directory (source/). Requires pandoc and a full texlive installation.
   Pass main.md first (provides metadata via YAML front matter), then all chapter files.
 
-  INPUTS="main.md 01-introduction/index.md 02-framework/technical-dimensions.md 02-framework/fair.md 02-framework/open-source-software.md 02-framework/sustainability.md 03-views/three-tiers.md 03-views/software-lifecycle.md 03-views/personas.md 03-views/science-clusters.md 04-conclusions/index.md"
+  INPUTS="main.md 01-introduction/index.md 02-framework/index.md 02-framework/technical-dimensions.md 02-framework/fair.md 02-framework/open-source-software.md 02-framework/sustainability.md 03-views/three-tiers.md 03-views/software-lifecycle.md 03-views/personas.md 03-views/science-clusters.md 04-conclusions/index.md"
 
   mkdir -p ../build
 
