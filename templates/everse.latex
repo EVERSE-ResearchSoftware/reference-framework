@@ -57,9 +57,17 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyfoot[C]{\thepage}
-\renewcommand{\headrulewidth}{0pt}
+\fancyhead[R]{\includegraphics[height=0.8cm]{templates/logos/eosc-everse.png}}
+\fancyfoot[C]{\includegraphics[height=0.8cm]{templates/logos/funded-by-eu.png}}
+\renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0pt}
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyhead[R]{\includegraphics[height=0.8cm]{templates/logos/eosc-everse.png}}%
+  \fancyfoot[C]{\includegraphics[height=0.8cm]{templates/logos/funded-by-eu.png}}%
+  \renewcommand{\headrulewidth}{0.4pt}%
+  \renewcommand{\footrulewidth}{0pt}%
+}
 
 $if(highlighting-macros)$
 $highlighting-macros$
@@ -72,7 +80,10 @@ $if(title)$
 \begin{titlepage}
 \thispagestyle{empty}
 
-\vspace{2cm}
+\noindent\includegraphics[height=1.5cm]{templates/logos/eosc-everse.png}%
+\hfill%
+
+\vspace{0.5cm}
 \noindent\rule{\textwidth}{0.4pt}
 
 \vspace{0.3cm}
@@ -97,6 +108,9 @@ $author$\\[3pt]
 $endfor$
 $endif$
 \vfill
+\begin{center}
+\includegraphics[height=1cm]{templates/logos/funded-by-eu.png}
+\end{center}
 \end{titlepage}
 $endif$
 

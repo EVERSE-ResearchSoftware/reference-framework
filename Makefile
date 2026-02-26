@@ -18,7 +18,7 @@ INPUTS := $(SRCDIR)/main.md \
 	$(SRCDIR)/03-views/science-clusters.md \
 	$(SRCDIR)/04-conclusions/index.md
 
-PANDOC_COMMON := --from markdown --standalone --resource-path=$(SRCDIR):$(SRCDIR)/figures
+PANDOC_COMMON := --from markdown --standalone --resource-path=.:$(SRCDIR):$(SRCDIR)/figures
 
 .PHONY: all pdf html markdown clean
 
