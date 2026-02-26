@@ -11,10 +11,12 @@
 
 \usepackage{geometry}
 \geometry{
-  top=2.5cm,
-  bottom=2.5cm,
+  top=3cm,
+  bottom=3cm,
   left=2.5cm,
-  right=2.5cm
+  right=2.5cm,
+  headheight=1.2cm,
+  footskip=2cm
 }
 
 \usepackage{hyperref}
@@ -52,22 +54,50 @@
 \usepackage{longtable,booktabs,array}
 \providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
 $if(highlighting-macros)$
 $highlighting-macros$
 $endif$
 
-$if(title)$
-\title{\color{eversepurple}\fontsize{28}{34}\selectfont $title$}
-$endif$
-$if(author)$
-\author{$for(author)$$author$$sep$ \and $endfor$}
-$endif$
-\date{}
-
 \begin{document}
 
+% --- Cover page ---
 $if(title)$
-\maketitle
+\begin{titlepage}
+\thispagestyle{empty}
+
+\vspace{2cm}
+\noindent\rule{\textwidth}{0.4pt}
+
+\vspace{0.3cm}
+{\fontsize{10}{13}\selectfont
+Project acronym: EVERSE\\
+Project full title: European Virtual Institute for Research Software Excellence\\
+Call identifier: HORIZON-INFRA-2023-EOSC-01\\
+Grant Agreement Number: 101129744\par}
+
+\vspace{2cm}
+{\fontsize{36}{44}\bfseries\color{eversepurple} $title$\par}
+\vspace{1.2cm}
+$if(version)$
+{\fontsize{24}{30}\itshape\color[HTML]{666666} Version $version$\par}
+$endif$
+\vspace{2cm}
+$if(author)$
+{\small Author(s):\par}
+\vspace{0.3cm}
+$for(author)$
+$author$\\[3pt]
+$endfor$
+$endif$
+\vfill
+\end{titlepage}
 $endif$
 
 $if(toc)$
