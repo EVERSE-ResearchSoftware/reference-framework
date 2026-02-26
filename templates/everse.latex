@@ -4,6 +4,7 @@
 \setmainfont{TeX Gyre Adventor}
 \setsansfont{TeX Gyre Adventor}
 \setmonofont{TeX Gyre Cursor}
+\newfontfamily\subtitlefont{TeX Gyre Termes}
 
 \usepackage{xcolor}
 \definecolor{eversepurple}{HTML}{80529a}
@@ -19,6 +20,9 @@
   footskip=2cm
 }
 
+\usepackage{setspace}
+\setstretch{1.15}
+
 \usepackage{hyperref}
 \hypersetup{
   colorlinks=true,
@@ -28,8 +32,11 @@
 
 \usepackage{titlesec}
 \titleformat{\section}{\fontsize{18}{22}\bfseries\color{eversepurple}}{\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{6pt}{4pt}
 \titleformat{\subsection}{\fontsize{16}{20}\bfseries\color{eversepurple}}{\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{18pt}{4pt}
 \titleformat{\subsubsection}{\fontsize{14}{17}\bfseries\color{eversepurple}}{\thesubsubsection}{1em}{}
+\titlespacing*{\subsubsection}{0pt}{17pt}{4pt}
 
 \setcounter{secnumdepth}{-\maxdimen}
 
@@ -57,17 +64,21 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
+\fancyhead[L]{\small\color{eversepurple}$title$}
 \fancyhead[R]{\includegraphics[height=0.8cm]{templates/logos/eosc-everse.png}}
 \fancyfoot[C]{\includegraphics[height=0.8cm]{templates/logos/funded-by-eu.png}}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0pt}
 \fancypagestyle{plain}{%
   \fancyhf{}%
+  \fancyhead[L]{\small\color{eversepurple}$title$}%
   \fancyhead[R]{\includegraphics[height=0.8cm]{templates/logos/eosc-everse.png}}%
   \fancyfoot[C]{\includegraphics[height=0.8cm]{templates/logos/funded-by-eu.png}}%
   \renewcommand{\headrulewidth}{0.4pt}%
   \renewcommand{\footrulewidth}{0pt}%
 }
+
+\renewcommand{\contentsname}{{\fontsize{14}{17}\bfseries\color{eversepurple}TABLE OF CONTENTS}}
 
 $if(highlighting-macros)$
 $highlighting-macros$
@@ -79,7 +90,6 @@ $endif$
 $if(title)$
 \begin{titlepage}
 \thispagestyle{empty}
-
 \noindent\includegraphics[height=1.5cm]{templates/logos/eosc-everse.png}%
 \hfill%
 
@@ -88,17 +98,20 @@ $if(title)$
 
 \vspace{0.3cm}
 {\fontsize{10}{13}\selectfont
-Project acronym: EVERSE\\
-Project full title: European Virtual Institute for Research Software Excellence\\
-Call identifier: HORIZON-INFRA-2023-EOSC-01\\
-Grant Agreement Number: 101129744\par}
+\textbf{Project acronym:} EVERSE\\
+\textbf{Project full title:} European Virtual Institute for Research Software Excellence\\
+\textbf{Call identifier:} HORIZON-INFRA-2023-EOSC-01\\
+\textbf{Grant Agreement Number:} 101129744\\
+\textbf{DOI:} \href{https://doi.org/10.5281/zenodo.15856368}{10.5281/zenodo.15856368}\par}
 
 \vspace{2cm}
-{\fontsize{36}{44}\bfseries\color{eversepurple} $title$\par}
+\begin{center}
+{\fontsize{36}{44}\bfseries\color{eversepurple}\obeylines $title$\par}
 \vspace{1.2cm}
 $if(version)$
-{\fontsize{24}{30}\itshape\color[HTML]{666666} Version $version$\par}
+{\subtitlefont\fontsize{24}{30}\itshape\color[HTML]{666666} Version $version$\par}
 $endif$
+\end{center}
 \vspace{2cm}
 $if(author)$
 {\small Author(s):\par}

@@ -1,5 +1,5 @@
 ---
-title: "EVERSE Reference Framework for Research Software Quality"
+title: "EVERSE\n Reference Framework\n for Research Software Quality"
 version: "2.1"
 author:
   - Faruk Diblen (NLeSC)
