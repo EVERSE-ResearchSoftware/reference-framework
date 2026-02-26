@@ -1,5 +1,14 @@
 \documentclass[a4paper,11pt]{article}
 
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Adventor}
+\setsansfont{TeX Gyre Adventor}
+\setmonofont{TeX Gyre Cursor}
+
+\usepackage{xcolor}
+\definecolor{eversepurple}{HTML}{80529a}
+\definecolor{linkblue}{HTML}{1155cc}
+
 \usepackage{geometry}
 \geometry{
   top=2.5cm,
@@ -11,9 +20,16 @@
 \usepackage{hyperref}
 \hypersetup{
   colorlinks=true,
-  linkcolor=black,
-  urlcolor=blue
+  linkcolor=eversepurple,
+  urlcolor=linkblue
 }
+
+\usepackage{titlesec}
+\titleformat{\section}{\fontsize{18}{22}\bfseries\color{eversepurple}}{\thesection}{1em}{}
+\titleformat{\subsection}{\fontsize{16}{20}\bfseries\color{eversepurple}}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\fontsize{14}{17}\bfseries\color{eversepurple}}{\thesubsubsection}{1em}{}
+
+\setcounter{secnumdepth}{-\maxdimen}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{6pt plus 2pt minus 1pt}
@@ -41,7 +57,7 @@ $highlighting-macros$
 $endif$
 
 $if(title)$
-\title{$title$}
+\title{\color{eversepurple}\fontsize{28}{34}\selectfont $title$}
 $endif$
 $if(author)$
 \author{$for(author)$$author$$sep$ \and $endfor$}
@@ -55,7 +71,10 @@ $if(title)$
 $endif$
 
 $if(toc)$
+{
+\hypersetup{linkcolor=eversepurple}
 \tableofcontents
+}
 \newpage
 $endif$
 
