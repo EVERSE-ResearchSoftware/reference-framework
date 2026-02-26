@@ -22,7 +22,7 @@ EVERSE pilot examples: The ACTS Common Tracking Software exemplifies this tier, 
 
 An alternative view of the research software lifecycle, developed as part of the RSQKit to ease navigation of software best practices, emphasizes different stages and the connection between research and software aspects:
 
-![The Research Software Lifecycle developed for the Research Software Quality Kit (RSQKit) originating from the EVERSE project](../figures/figure3-rsqkit-lifecycle.png)
+![The Research Software Lifecycle developed for the Research Software Quality Kit (RSQKit) originating from the EVERSE project](../figures/figure3-rsqkit-lifecycle.png){ width=55% }
 
 This model particularly highlights:
 

@@ -1,6 +1,6 @@
 ## 3.1 Three-Tiers View
 
-![Three-tier model diagram showing the relationship between software tiers, with Analysis Code having high abundance but low reach, Prototype Tools in the middle, and Research Software Infrastructure having low abundance but high reach.](../figures/figure2-three-tier-model.png)
+![Three-tier model diagram showing the relationship between software tiers, with Analysis Code having high abundance but low reach, Prototype Tools in the middle, and Research Software Infrastructure having low abundance but high reach.](../figures/figure2-three-tier-model.png){ width=65% }
 
 *Diagram from "EVERSE Paving the way towards a European Virtual Institute for Research Software Excellence" presentation by F. Psomopoulos, February 2025, adapted by Aleksandra Nenadic under CC-BY 4.0 licence*
 
