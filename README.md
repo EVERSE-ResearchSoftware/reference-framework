@@ -30,18 +30,21 @@ reference-framework/
 ├── README.md
 ├── CONTRIBUTING.md
 ├── LICENSE
+├── Makefile                           # Build targets (pdf, html, markdown)
+├── templates/
+│   └── everse.latex                   # Pandoc LaTeX template
 ├── source/
-│   ├── main.md                        # Master document and build commands
+│   ├── main.md                        # Metadata (title, version, authors)
 │   ├── 01-introduction/
 │   │   └── index.md
 │   ├── 02-framework/
-│   │   ├── index.md                   # Section 2 introduction
+│   │   ├── index.md
 │   │   ├── technical-dimensions.md
 │   │   ├── fair.md
 │   │   ├── open-source-software.md
 │   │   └── sustainability.md
 │   ├── 03-views/
-│   │   ├── index.md                   # Section 3 introduction
+│   │   ├── index.md
 │   │   ├── three-tiers.md
 │   │   ├── software-lifecycle.md
 │   │   ├── personas.md
@@ -52,6 +55,67 @@ reference-framework/
 └── assets/
     └── EVERSE_reference_framework_v2.pdf
 ```
+
+## Editing and building locally
+
+### Prerequisites
+
+To build the PDF you need:
+
+- [Pandoc](https://pandoc.org/installing.html) (3.0 or later)
+- A TeX Live installation with LuaLaTeX and the following packages: `titlesec`, `setspace`, `fontspec`, `fancyhdr`, `geometry`, `longtable`, `booktabs`, `tex-gyre` fonts
+- GNU Make
+
+On **Ubuntu/Debian**:
+
+```bash
+sudo apt install pandoc texlive-luatex texlive-latex-extra texlive-fonts-extra make
+```
+
+On **macOS** (with Homebrew):
+
+```bash
+brew install pandoc make
+brew install --cask mactex
+```
+
+On **Fedora**:
+
+```bash
+sudo dnf install pandoc texlive-scheme-medium texlive-titlesec texlive-setspace texlive-tex-gyre make
+```
+
+### Editing
+
+The document source lives under `source/` as Markdown files. Edit the files directly -- they are combined in the order listed in the `Makefile`. Metadata (title, version, authors) is in `source/main.md`.
+
+Images go in `source/figures/` and are referenced with relative paths from each Markdown file, e.g.:
+
+```markdown
+![Caption text](../figures/my-figure.png){ width=70% }
+```
+
+The `{ width=70% }` attribute controls how wide the figure appears in the PDF (percentage of page width).
+
+### Building
+
+From the repository root:
+
+```bash
+# Build PDF (default target)
+make pdf
+
+# Build single-file HTML
+make html
+
+# Build combined Markdown
+make markdown
+
+# Remove all build output
+make clean
+```
+
+Output is written to the `build/` directory.
 
 ## Development workflow
 
