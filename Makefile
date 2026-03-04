@@ -38,7 +38,7 @@ $(BUILDDIR)/reference-framework.pdf: $(INPUTS) $(TEMPLATE) | $(BUILDDIR)
 		--to pdf \
 		--pdf-engine=lualatex \
 		--template=$(TEMPLATE) \
-		--dpi=300
+		--dpi=300 \
 		--toc \
 		$(INPUTS) \
 		-o $@
