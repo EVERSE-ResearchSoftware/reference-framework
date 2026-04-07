@@ -26,7 +26,7 @@ The framework targets multiple stakeholder groups through four complementary vie
 ## Chapter and Section owners
 
 | Name         | Affiliation         | Chapter and Section          |
-| :----------- | :-----------------: | ---------------------------: |
+| :----------- | :-----------------: | :--------------------------- |
 | Your name  (optionally email)   | Your affiliation | **Chapter-1:** Introduction |
 | Your name  (optionally email)   | Your affiliation | **Chapter-2:** Technical dimensions |
 | Your name  (optionally email)   | Your affiliation | **Chapter-2:** FAIRness |
