@@ -23,6 +23,21 @@ The framework targets multiple stakeholder groups through four complementary vie
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15856368.svg)](https://doi.org/10.5281/zenodo.15856368)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
+## Chapter and Section owners
+
+| Name         | Affiliation         | Chapter and Section          |
+| :----------- | :-----------------: | ---------------------------: |
+| Your name  (optionally email)   | Your affiliation | **Chapter-1:** Introduction |
+| Your name  (optionally email)   | Your affiliation | **Chapter-2:** Technical dimensions |
+| Your name  (optionally email)   | Your affiliation | **Chapter-2:** FAIRness |
+| Your name  (optionally email)   | Your affiliation | **Chapter-2:** Open Source Software |
+| Your name  (optionally email)   | Your affiliation | **Chapter-2:** Sustainability |
+| Your name  (optionally email)   | Your affiliation | **Chapter-3:** Three-Tiers View |
+| Your name  (optionally email)   | Your affiliation | **Chapter-3:** Software Lifecycle View |
+| Your name  (optionally email)   | Your affiliation | **Chapter-3:** Personas View |
+| Your name  (optionally email)   | Your affiliation | **Chapter-3:** Science Clusters View |
+| Your name  (optionally email)   | Your affiliation | **Chapter-4:** Conclusions |
+
 ## Repository structure
 
 ```
