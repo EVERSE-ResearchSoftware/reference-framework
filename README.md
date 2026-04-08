@@ -18,25 +18,27 @@ The framework targets multiple stakeholder groups through four complementary vie
 
 ## Current version
 
-**Version 2.0** (published July 2025)
+**Version 2.1** (published July 2025)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15856368.svg)](https://doi.org/10.5281/zenodo.15856368)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ## Chapter and Section owners
 
-| Name         | Affiliation         | Chapter and Section          |
-| :----------- | :-----------------: | :--------------------------- |
-| Your name  (optionally email)   | Your affiliation | **Chapter-1:** Introduction |
-| Your name  (optionally email)   | Your affiliation | **Chapter-2:** Technical dimensions |
-| Your name  (optionally email)   | Your affiliation | **Chapter-2:** FAIRness |
-| Your name  (optionally email)   | Your affiliation | **Chapter-2:** Open Source Software |
-| Your name  (optionally email)   | Your affiliation | **Chapter-2:** Sustainability |
-| Your name  (optionally email)   | Your affiliation | **Chapter-3:** Three-Tiers View |
-| Your name  (optionally email)   | Your affiliation | **Chapter-3:** Software Lifecycle View |
-| Your name  (optionally email)   | Your affiliation | **Chapter-3:** Personas View |
-| Your name  (optionally email)   | Your affiliation | **Chapter-3:** Science Clusters View |
-| Your name  (optionally email)   | Your affiliation | **Chapter-4:** Conclusions |
+| Name (optionally email) | GitHub username | Affiliation | Chapter and Section |
+| :---------------------- | :-------------: | :---------: | :------------------ |
+| Your name | @username | Your affiliation | **Chapter-1:** Introduction |
+| Your name | @username | Your affiliation | **Chapter-2:** Framework overview |
+| Your name | @username | Your affiliation | **Chapter-2:** Technical dimensions |
+| Your name | @username | Your affiliation | **Chapter-2:** FAIRness |
+| Your name | @username | Your affiliation | **Chapter-2:** Open Source Software |
+| Your name | @username | Your affiliation | **Chapter-2:** Sustainability |
+| Your name | @username | Your affiliation | **Chapter-3:** Four Views overview |
+| Your name | @username | Your affiliation | **Chapter-3:** Three-Tiers View |
+| Your name | @username | Your affiliation | **Chapter-3:** Software Lifecycle View |
+| Your name | @username | Your affiliation | **Chapter-3:** Personas View |
+| Your name | @username | Your affiliation | **Chapter-3:** Science Clusters View |
+| Your name | @username | Your affiliation | **Chapter-4:** Conclusions |
 
 ## Repository structure
 
@@ -46,8 +48,12 @@ reference-framework/
 ├── CONTRIBUTING.md
 ├── LICENSE
 ├── Makefile                           # Build targets (pdf, html, markdown)
+├── .github/
+│   └── workflows/
+│       └── build-pdf.yml              # CI pipeline for PDF generation
 ├── templates/
-│   └── everse.latex                   # Pandoc LaTeX template
+│   ├── everse.latex                   # Pandoc LaTeX template
+│   └── logos/                         # Header/footer logos
 ├── source/
 │   ├── main.md                        # Metadata (title, version, authors)
 │   ├── 01-introduction/
@@ -67,8 +73,9 @@ reference-framework/
 │   ├── 04-conclusions/
 │   │   └── index.md
 │   └── figures/                       # Diagrams and images
-└── assets/
-    └── EVERSE_reference_framework_v2.pdf
+├── assets/
+│   └── EVERSE_reference_framework_v2.pdf  # Archived v2.0 PDF
+└── build/                             # Generated output (gitignored)
 ```
 
 ## Editing and building locally
@@ -157,14 +164,7 @@ The Reference Framework follows a periodic release model:
 
 ## How to contribute
 
-The Reference Framework is developed collaboratively by the EVERSE team. To propose changes:
-
-1. Create an issue describing the proposed change
-2. Fork this repository
-3. Make your changes in a branch
-4. Submit a pull request referencing the issue
-
-See CONTRIBUTING.md for detailed guidelines.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on reporting issues, proposing changes, and submitting pull requests.
 
 ## Relationship to other EVERSE tools
 
@@ -178,7 +178,7 @@ The RF provides conceptual foundations whilst these tools enable practical imple
 
 ## Versions
 
-- **v2.0** (July 2025): Twelve quality dimensions established (nine technical plus FAIR, Open Source Software, and Sustainability)
+- **v2.1** (July 2025): Twelve quality dimensions established (nine technical plus FAIR, Open Source Software, and Sustainability)
 - **v3.0** (target Summer 2026): Refinement and integration of community feedback
 
 ## How to cite
