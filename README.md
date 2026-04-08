@@ -19,20 +19,118 @@ The framework targets multiple stakeholder groups through four complementary vie
 ## Current version
 
 **Version 2.0** (published July 2025)
-- DOI: [Add Zenodo DOI here]
-- Published on Zenodo: [Add Zenodo link here]
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15856368.svg)](https://doi.org/10.5281/zenodo.15856368)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+## Chapter and Section owners
+
+| Name         | Affiliation         | Chapter and Section          |
+| :----------- | :-----------------: | :--------------------------- |
+| Your name  (optionally email)   | Your affiliation | **Chapter-1:** Introduction |
+| Your name  (optionally email)   | Your affiliation | **Chapter-2:** Technical dimensions |
+| Your name  (optionally email)   | Your affiliation | **Chapter-2:** FAIRness |
+| Your name  (optionally email)   | Your affiliation | **Chapter-2:** Open Source Software |
+| Your name  (optionally email)   | Your affiliation | **Chapter-2:** Sustainability |
+| Your name  (optionally email)   | Your affiliation | **Chapter-3:** Three-Tiers View |
+| Your name  (optionally email)   | Your affiliation | **Chapter-3:** Software Lifecycle View |
+| Your name  (optionally email)   | Your affiliation | **Chapter-3:** Personas View |
+| Your name  (optionally email)   | Your affiliation | **Chapter-3:** Science Clusters View |
+| Your name  (optionally email)   | Your affiliation | **Chapter-4:** Conclusions |
 
 ## Repository structure
 
 ```
 reference-framework/
-├── README.md                          # This file
+├── README.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── Makefile                           # Build targets (pdf, html, markdown)
+├── templates/
+│   └── everse.latex                   # Pandoc LaTeX template
 ├── source/
-│   ├── main.md                        # Main RF content
-│   └── metadata.yml                   # Document metadata
-├── figures/                           # Diagrams and images
-└── CONTRIBUTING.md                    # How to contribute
+│   ├── main.md                        # Metadata (title, version, authors)
+│   ├── 01-introduction/
+│   │   └── index.md
+│   ├── 02-framework/
+│   │   ├── index.md
+│   │   ├── technical-dimensions.md
+│   │   ├── fair.md
+│   │   ├── open-source-software.md
+│   │   └── sustainability.md
+│   ├── 03-views/
+│   │   ├── index.md
+│   │   ├── three-tiers.md
+│   │   ├── software-lifecycle.md
+│   │   ├── personas.md
+│   │   └── science-clusters.md
+│   ├── 04-conclusions/
+│   │   └── index.md
+│   └── figures/                       # Diagrams and images
+└── assets/
+    └── EVERSE_reference_framework_v2.pdf
 ```
+
+## Editing and building locally
+
+### Prerequisites
+
+To build the PDF you need:
+
+- [Pandoc](https://pandoc.org/installing.html) (3.0 or later)
+- A TeX Live installation with LuaLaTeX and the following packages: `titlesec`, `setspace`, `fontspec`, `fancyhdr`, `geometry`, `longtable`, `booktabs`, `tex-gyre` fonts
+- GNU Make
+
+On **Ubuntu/Debian**:
+
+```bash
+sudo apt install pandoc texlive-luatex texlive-latex-extra texlive-fonts-extra make
+```
+
+On **macOS** (with Homebrew):
+
+```bash
+brew install pandoc make
+brew install --cask mactex
+```
+
+On **Fedora**:
+
+```bash
+sudo dnf install pandoc texlive-scheme-medium texlive-titlesec texlive-setspace texlive-tex-gyre make
+```
+
+### Editing
+
+The document source lives under `source/` as Markdown files. Edit the files directly -- they are combined in the order listed in the `Makefile`. Metadata (title, version, authors) is in `source/main.md`.
+
+Images go in `source/figures/` and are referenced with relative paths from each Markdown file, e.g.:
+
+```markdown
+![Caption text](../figures/my-figure.png){ width=70% }
+```
+
+The `{ width=70% }` attribute controls how wide the figure appears in the PDF (percentage of page width).
+
+### Building
+
+From the repository root:
+
+```bash
+# Build PDF (default target)
+make pdf
+
+# Build single-file HTML
+make html
+
+# Build combined Markdown
+make markdown
+
+# Remove all build output
+make clean
+```
+
+Output is written to the `build/` directory.
 
 ## Development workflow
 
@@ -83,13 +181,17 @@ The RF provides conceptual foundations whilst these tools enable practical imple
 - **v2.0** (July 2025): Twelve quality dimensions established (nine technical plus FAIR, Open Source Software, and Sustainability)
 - **v3.0** (target Summer 2026): Refinement and integration of community feedback
 
+## How to cite
+
+> EVERSE Consortium. (2025). EVERSE Reference Framework for Research Software Quality (v2.0). Zenodo. https://doi.org/10.5281/zenodo.15856368
+
 ## Contact
 
 For questions about the Reference Framework, contact the EVERSE Task Force 2 team or open an issue in this repository.
 
 ## Licence
 
-[Add licence information]
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 ## Acknowledgements
 
