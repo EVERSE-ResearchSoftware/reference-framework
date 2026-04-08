@@ -27,18 +27,18 @@ The framework targets multiple stakeholder groups through four complementary vie
 
 | Name (optionally email) | GitHub username | Affiliation | Chapter and Section |
 | :---------------------- | :-------------: | :---------: | :------------------ |
-| Your name | @username | Your affiliation | **Chapter-1:** Introduction |
-| Your name | @username | Your affiliation | **Chapter-2:** Framework overview |
-| Your name | @username | Your affiliation | **Chapter-2:** Technical dimensions |
-| Your name | @username | Your affiliation | **Chapter-2:** FAIRness |
-| Your name | @username | Your affiliation | **Chapter-2:** Open Source Software |
-| Your name | @username | Your affiliation | **Chapter-2:** Sustainability |
-| Your name | @username | Your affiliation | **Chapter-3:** Four Views overview |
-| Your name | @username | Your affiliation | **Chapter-3:** Three-Tiers View |
-| Your name | @username | Your affiliation | **Chapter-3:** Software Lifecycle View |
-| Your name | @username | Your affiliation | **Chapter-3:** Personas View |
-| Your name | @username | Your affiliation | **Chapter-3:** Science Clusters View |
-| Your name | @username | Your affiliation | **Chapter-4:** Conclusions |
+| Your name | @username | Your affiliation | **Chapter-1:** Introduction ([#4](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/4)) |
+| Your name | @username | Your affiliation | **Chapter-2:** Framework overview ([#5](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/5)) |
+| Your name | @username | Your affiliation | **Chapter-2:** Technical dimensions ([#6](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/6)) |
+| Your name | @username | Your affiliation | **Chapter-2:** FAIRness ([#7](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/7)) |
+| Your name | @username | Your affiliation | **Chapter-2:** Open Source Software ([#8](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/8)) |
+| Your name | @username | Your affiliation | **Chapter-2:** Sustainability ([#9](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/9)) |
+| Your name | @username | Your affiliation | **Chapter-3:** Four Views overview ([#10](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/10)) |
+| Your name | @username | Your affiliation | **Chapter-3:** Three-Tiers View ([#11](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/11)) |
+| Your name | @username | Your affiliation | **Chapter-3:** Software Lifecycle View ([#12](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/12)) |
+| Your name | @username | Your affiliation | **Chapter-3:** Personas View ([#13](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/13)) |
+| Your name | @username | Your affiliation | **Chapter-3:** Science Clusters View ([#14](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/14)) |
+| Your name | @username | Your affiliation | **Chapter-4:** Conclusions ([#15](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/15)) |
 
 ## Repository structure
 
