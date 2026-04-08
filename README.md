@@ -2,6 +2,8 @@
 
 The EVERSE Reference Framework establishes quality assessment standards for research software. It covers twelve quality dimensions — nine technical dimensions based on ISO/IEC 25010:2023, plus FAIRness, Open Source Software, and Sustainability — and provides four complementary views (three-tier model, software lifecycle, personas, and science clusters) to help different stakeholders apply them.
 
+**Read the framework:** [Latest version (PDF)](reference-framework.pdf) · [Stable release v2.1 on Zenodo](https://doi.org/10.5281/zenodo.15856368)
+
 **Version 2.1** (July 2025) — [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15856368.svg)](https://doi.org/10.5281/zenodo.15856368) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ## Section owners
