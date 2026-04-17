@@ -47,6 +47,10 @@ make markdown  # Build combined Markdown
 make clean     # Remove build output
 ```
 
+## Meeting notes
+
+TF2 rolling meeting minutes: [view on HackMD](https://hackmd.io/jAtel0omT8uzhnU86Gu6jw) · [`meetings/tf2-rolling-notes.md`](meetings/tf2-rolling-notes.md)
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). The `main` branch is work-in-progress for the next version; stable releases are published to Zenodo.
