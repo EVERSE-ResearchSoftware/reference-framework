@@ -2,55 +2,116 @@
 
 Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 
-# TF2 Meeting Agenda --- 23 March 2026
+# TF2 Meeting Agenda — 20 April 2026
+
+**Date:** Monday, 20 April 2026 **Time:** 11:00 UK / 12:00 CET **Location:** <https://us02web.zoom.us/j/83181471617?pwd=NGZIaDIvTXhEN0JsVWtXRk5uN2Uzdz09>
+
+**Attending:**
+
+**Apologies:**
+
+## Agenda items
+
+### Outstanding actions from 23 March
+
+- Faruk — set up org-level GitHub Actions workflow to validate all EVERSE citation files across EVERSE-ResearchSoftware; raise a PR per repo (cffinit suggested as validation tool)
+- Giacomo — create and initialise an AI-EVERSE repository for collecting EVERSE work on AI and research software quality (guidelines, skills files, recommendations)
+- Giacomo — create GitHub issues per RF section; post to Mattermost for volunteer assignment
+- Shoaib — draft audience statement for RF v3 (first draft, to be iterated); review and update scope and goals section
+- Michael — review definitions section; share AI/RSQKit draft page (using AI to improve RSQ) within days
+- All — review RF v2.1 on GitHub; flag issues or questions
+
+### Updates
+
+**Feedback from EVERSE Africa engagement event**
+
+- Good practices breakout (n=9): participants were experienced — all familiar with version control, testing, CI/CD, documentation and code review. Software management plans had the lowest current use (6/9) but was the only practice selected by all respondents as planned for adoption. Main obstacles: skills deficit, time, funding focused on new features rather than maintenance.
+- Indicators breakout (n=9): lower baseline familiarity than practices. Test coverage most widely measured (6/9); maintainability least (2/9), but highest planned uptake (4/6) — largest gap of any indicator. Obstacles include expertise, connectivity constraints, and difficulty measuring quality for externally distributed software.
+- Michael Sparks has been developing an idea around software entropy as a lens for formalising metrics currently measured informally (brittleness, code churn, entanglement, coupling). The concept draws on Lehman's laws of software evolution. One Africa event respondent independently cited software entropy as a needed concept — worth tracking as a candidate for the indicators repository.
+- Daniel flagged post-GAM that some indicators are better characterised as project health metrics rather than software quality indicators. The Africa poll data supports this: respondents spontaneously listed forks, active contributor counts, and resourcing alongside code-level metrics. Worth deciding whether the RF or the indicators repository should make this distinction explicit.
+- The poll data offers indirect support for community as an additional quality dimension: respondents unprompted listed forks, open issues, and active contributor counts as metrics they already track, and cited domain knowledge transfer and team dynamics as quality obstacles. No respondent explicitly requested a community dimension, so the evidence is inferential rather than direct.
+
+**Community dimension update**
+
+Added a new Community dimension (section 2.5) to the Reference Framework, covering community health for research software: governance structures, contributor engagement, communication channels, community health metrics, and integration with research communities. The section includes good enough practices and a tools list. A tracking issue (#18) has been opened with subtasks to review overlaps with the Sustainability, Open Source Software, FAIR, and Technical dimensions. All sections are open for review. PR #19 is open for review.
+
+**Reference Framework review plan**
+
+A section owners table has been added to the README, with one row per section linked to a dedicated tracking issue in the upstream repository. Issues #4–#15 cover all existing sections (Introduction, Framework overview, each dimension, all four Views, and Conclusions); issue #18 covers the new Community dimension. All sections are open for review.
+
+Giacomo has posted to Mattermost inviting volunteers to claim sections by opening a PR to add their name to the table. Where no volunteer comes forward, owners will be assigned.
+
+### AI and EVERSE
+
+Two tracks confirmed at 23 March meeting:
+
+**Track 1 — policy and position:** high-level recommendations on AI and research software quality, feeding into the project policy brief (due February 2027). SSI workshop report (Edinburgh, March) expected ~2 months; to be circulated as input when available.
+
+**Track 2 — practical RSQKit guidance:** three pages scoped: (1) using tools to improve research software quality; (2) using AI to develop research software; (3) using AI to assess and improve research software quality. Michael circulating draft of page 3 for comment.
+
+For discussion:
+- Agree AI workplan for remaining 11 months
+- EVERSE-flavoured AI skills files — scope and ownership (Faruk, David/Hugo)
+- Hugo Bacard update (expected at this meeting): AI work at CERN, RSQKit chatbot prototype, AI-assisted metadata for training catalogue
+
+### Next meeting
+
+Monday, 18 May 2026, 11:00 UK / 12:00 CET
+
+---
+
+# TF2 Meeting Minutes — 23 March 2026
 
 **Date:** Monday, 23 March 2026 **Time:** 12:00 CET / 11:00 UK **Location:** <https://us02web.zoom.us/j/83181471617?pwd=NGZIaDIvTXhEN0JsVWtXRk5uN2Uzdz09>
 
-Attending: Gavin Pringle (UEDIN), Elena Breitmoser (UEDIN), Thomas Vuillaume, David Chamont (representing Hugo Bacard), Fotis P., FarukD, Selim Kalayci (ELIXIR), Senem O., Jason M, Kirsty P (uEDIN)., Neil C-H (UEDIN), Stella F., Srobona G., Giacomo P., Shoaib Sufi (UNIMAN), Michael Sparks (UNIMAN)
+**Attending:** Gavin Pringle (UEDIN), Elena Breitmoser (UEDIN), Thomas Vuillaume, David Chamont (representing Hugo Bacard), Fotis P., FarukD, Selim Kalayci (ELIXIR), Senem O., Jason M, Kirsty O., Neil C-H, Stella F., Srobona G., Giacomo P., Shoaib Sufi (UNIMAN), Michael Sparks (UNIMAN)
 
-Apologies:
+**Apologies:**
 
 ## Agenda items
 
 ### Outstanding actions from 16 February
 
-- Jason/WP2: Section 2.3.1 input (tier-indicator process description) \[stand-up\]
-
+- Jason/WP2: Section 2.3.1 input (tier-indicator process description) [stand-up]
 - All: citation files for repositories
-
 - Thomas: communication/usability discussion at WP3 meeting
+
+**Discussion:** Citation files have been added to the radar, dashboard, and indicators repositories. Faruk to set up an org-level GitHub Actions workflow to validate all EVERSE citation files and raise PRs per repo. The tool cffinit was suggested for validation. Jason's section 2.3.1 input remains on hold. Thomas's action on entry points / usability is covered under Communication and usability below.
 
 ### deRSE26
 
-Giacomo Peru presented \"Quality Unpacked: The EVERSE Reference Framework for Research Software\" on 5 March, Software Quality and Architecture session (15 min + 5 min Q&A). Elena Breitmoser, Faruk Diblen, and Shraddha Rohidas Bajare also presented and demoed EVERSE tools.
+Giacomo Peru presented "Quality Unpacked: The EVERSE Reference Framework for Research Software" on 5 March, Software Quality and Architecture session (15 min + 5 min Q&A). Elena Breitmoser, Faruk Diblen, and Shraddha Rohidas Bajare also presented and demoed EVERSE tools.
+
+**Discussion:** The talk was well received. The most relevant question from the audience concerned how to relate the software tiers to impact.
 
 ### GitHub migration and v2.1 publication
 
 Repository transferred to EVERSE-ResearchSoftware/reference-framework. Build pipeline in place (Pandoc/LuaLaTeX, automated PDF generation on push). v2.1 published on Zenodo.
 
-- GitHub-Zenodo automated integration --- status and next steps (Faruk)
+- GitHub-Zenodo automated integration — status and next steps (Faruk)
+- PR workflow — confirm working practice for contributions
 
-- PR workflow --- confirm working practice for contributions
+**Discussion:** There is a known versioning misalignment — the RF is at v2.1 but the Zenodo record is numbered 3. Automated GitHub-Zenodo integration is desirable but complicated by DOI lineage from the manually uploaded v2 record; unresolved. PR-based workflow confirmed as the working practice for all future contributions.
 
 ### Version 3 planning
 
-- An audience statement -- who is this document for / who might it be useful for -- Shoaib to do first draft.
-
+- An audience statement — who is this document for / who might it be useful for — Shoaib to do first draft.
 - EVERSE ecosystem section (RSQKit, TechRadar, DashVERSE, QualityPipelines linkages)
-
-- Placeholder sections (2.2.1, 2.3.1, Conclusions) --- priorities and owners
-
+- Placeholder sections (2.2.1, 2.3.1, Conclusions) — priorities and owners
 - Citation files across repositories (action: all)
-
 - Target date for content freeze
+
+**Discussion:** Agreement to focus the coming months on reviewing and improving the text. Tasks identified: add sections linking to ecosystem tools (RSQKit, TechRadar, DashVERSE, QualityPipelines); complete placeholder sections; standardise use of notes throughout the document. Shoaib volunteered to draft the audience statement and review the scope and goals section. Michael volunteered to review the definitions section. Giacomo to create a GitHub issue per section and post to Mattermost for volunteer assignment; where no volunteer comes forward, owners will be assigned. A suggestion was made to designate chapter owners responsible for text, images, and figures, and to list contributors as document authors or reviewers. Target content freeze date: to be confirmed.
 
 ### Communication and usability
 
 Raised by Thomas at 16 February: quality dimensions are useful as an organising backbone but not effective as a user-facing entry point. Task-based navigation (as in RSQKit) is more appropriate. TechRadar currently uses dimensions as primary categorisation.
 
+**Discussion:** Thomas confirmed the point: dimensions should be retained as the structural backbone, but the interface should foreground concrete, recognisable activities (e.g. unit testing, CI/CD) rather than dimension labels. This is not yet implemented in TechRadar, where UI work is ongoing.
+
 ### Community dimension
 
-Decision deferred to next meeting due to Daniel\'s attendance.
+Decision deferred to next meeting due to Daniel's absence. Daniel has already begun looking at indicators for the community dimension and is the primary source of relevant background.
 
 Background: draft circulated November 2025; Daniel opened issue #120 in indicators repo on the basis of the draft; clarified at 16 February that the draft is a proposal, not adopted; Daniel has paused indicators work pending decision.
 
@@ -62,17 +123,32 @@ Resources: Community dimension draft; CHAOSS framework (89 metrics, 21 software-
 
 ### AI and EVERSE
 
-- AI guidelines: scope, existing resources, Research Software Alliance workshop report (Edinburgh, March --- expected \~2 months for public report)
-
-  - 
-
+- AI guidelines: scope, existing resources, Research Software Alliance workshop report (Edinburgh, March — expected ~2 months for public report)
 - AI tools to support EVERSE outputs: MCP servers, RSQKit add-ons
 
-  - 
+**Discussion:** The group agreed to handle AI within TF2 rather than forming a separate group (confirmed by Mattermost vote). Two tracks identified:
+
+**Track 1 — policy and position:** high-level recommendations on AI and research software quality, feeding into the project policy brief (due February 2027). Fotis noted that a management board discussion after the last General Assembly identified two levels — high-level considerations (AI vs. traditional software development) and more practical guidelines — and that SSI workshop outputs (Edinburgh, March) will be circulated as additional input when available.
+
+**Track 2 — practical RSQKit guidance:** three pages scoped by Shoaib: (1) using tools to improve research software quality; (2) using AI to develop research software; (3) using AI to assess and improve research software quality. Michael is drafting page 3 in a Google Doc, drawing on existing good practices and inviting comments. The draft is not a straight PR-ready Markdown file; it requires broader input before publication.
+
+On tooling: Fotis confirmed the project scope does not include developing new tools. Reuse of existing tools and models is acceptable — e.g. combining an LLM with the RSQKit knowledge base (a prototype chatbot along these lines was built by Hugo Bacard; not deployed). Faruk and David/Hugo have separately discussed creating EVERSE-flavoured AI skills files (analogous to Claude skills, but for multiple LLMs including Gemini and OpenAI) targeted at research software quality; assessed as low effort, high impact. Michael noted that prompts and skills files can be treated as a form of guidance rather than new tooling. Fotis suggested a practical filter for anything proposed: will it still be relevant in 12 months, and does it tie to software quality or excellence?
+
+Broader points raised: RSEs and researchers are increasingly using coding agents and reading documentation less (Faruk); the audience for this guidance is not only RSEs but also scientists writing code directly (Michael); AI can influence models trained on publicly accessible material, so high-quality accessible outputs from EVERSE have indirect value even if users never read them directly (Michael); the analysis tier of the RF is likely to be most disrupted by AI adoption, with some physicists already delegating analysis entirely to AI tools (David/Hugo, relayed by David Chamont); guidance should remain general and principles-based rather than technology-specific, given the pace of change (Faruk, Fotis); Faruk proposed that EVERSE could produce a declaration of recommendations that partner organisations endorse.
+
+Hugo Bacard (CERN, absent) is working full-time on AI for EVERSE; also has a proposal to use AI to assist with metadata for the training catalogue (lower priority per recent survey). Expected at next meeting.
+
+### Actions
+
+- Faruk — set up org-level GitHub Actions workflow to validate all EVERSE citation files; raise PRs per repo
+- Giacomo — create GitHub issues per RF section; post to Mattermost for volunteer assignment
+- Shoaib — draft audience statement; review and update scope and goals section
+- Michael — review definitions section; share AI/RSQKit draft page (using AI to improve RSQ) within days
+- All — review RF v2.1 on GitHub; flag issues or questions
 
 ### Next meeting
 
-## Running notes space
+Monday, 20 April 2026 — community dimension discussion (Daniel required); agree AI workplan for remaining 11 months; consider structured writing slot format (30 min RF / 30 min AI)
 
 # TF2 Meeting Agenda -- 16 February 2026
 
