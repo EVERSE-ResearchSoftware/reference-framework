@@ -31,6 +31,10 @@ For larger changes — new sections, structural reorganisation, or changes to co
 - If adding figures, place them in `source/figures/` and reference them with a relative path and a `{ width=70% }` attribute (or appropriate width).
 - Metadata (title, version, authors) lives in `source/main.md` — do not edit version numbers without coordinating with the maintainers.
 
+## Meeting notes
+
+TF2 rolling meeting minutes are maintained at [`meetings/tf2-rolling-notes.md`](meetings/tf2-rolling-notes.md) and collaboratively edited on [HackMD](https://hackmd.io/jAtel0omT8uzhnU86Gu6jw). After each meeting, the updated notes are pushed to this repository via a pull request.
+
 ## Section ownership
 
 Each chapter and section has an owner listed in the [README](README.md#section-owners). If your change touches a specific section, it is good practice to request a review from the relevant owner.

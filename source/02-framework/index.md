@@ -6,4 +6,4 @@ In EVERSE, we structure the discussion around research software quality with thr
 
 ![Figure 1: Main research software quality concepts, together with an example](../figures/figure1-quality-concepts.png){ width=90% }
 
-The EVERSE Framework encompasses twelve main dimensions of research software quality, derived from established standards and research software best practices. These consist of nine technical dimensions based on ISO/IEC standards, plus FAIRness, Open Source Software, and Sustainability dimensions that reflect the unique requirements of research software. Each dimension is described in the sections that follow.
+The EVERSE Framework encompasses thirteen main dimensions of research software quality, derived from established standards and research software best practices. These consist of nine technical dimensions based on ISO/IEC standards, plus FAIRness, Open Source Software, Sustainability, and Community dimensions that reflect the unique requirements of research software. Each dimension is described in the sections that follow.

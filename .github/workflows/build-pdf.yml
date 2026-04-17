@@ -39,7 +39,7 @@ jobs:
           path: build/reference-framework.pdf
 
   commit-latest:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: false # disabled until next Zenodo release
     needs: build
     runs-on: ubuntu-latest
     permissions:
