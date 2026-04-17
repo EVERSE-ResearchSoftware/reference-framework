@@ -11,6 +11,7 @@ INPUTS := $(SRCDIR)/main.md \
 	$(SRCDIR)/02-framework/fair.md \
 	$(SRCDIR)/02-framework/open-source-software.md \
 	$(SRCDIR)/02-framework/sustainability.md \
+	$(SRCDIR)/02-framework/community.md \
 	$(SRCDIR)/03-views/index.md \
 	$(SRCDIR)/03-views/three-tiers.md \
 	$(SRCDIR)/03-views/software-lifecycle.md \

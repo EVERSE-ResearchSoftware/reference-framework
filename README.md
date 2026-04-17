@@ -1,6 +1,6 @@
 # EVERSE Reference Framework
 
-The EVERSE Reference Framework establishes quality assessment standards for research software. It covers twelve quality dimensions — nine technical dimensions based on ISO/IEC 25010:2023, plus FAIRness, Open Source Software, and Sustainability — and provides four complementary views (three-tier model, software lifecycle, personas, and science clusters) to help different stakeholders apply them.
+The EVERSE Reference Framework establishes quality assessment standards for research software. It covers thirteen quality dimensions — nine technical dimensions based on ISO/IEC 25010:2023, plus FAIRness, Open Source Software, Sustainability, and Community — and provides four complementary views (three-tier model, software lifecycle, personas, and science clusters) to help different stakeholders apply them.
 
 **Read the framework:** [Latest version (PDF)](reference-framework.pdf) · [Stable release v2.1 on Zenodo](https://doi.org/10.5281/zenodo.15856368)
 
@@ -18,6 +18,7 @@ Each section has an owner responsible for its content. To claim a section, add y
 | Your name | @username | Your affiliation | **Chapter-2:** FAIRness ([#7](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/7)) |
 | Your name | @username | Your affiliation | **Chapter-2:** Open Source Software ([#8](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/8)) |
 | Your name | @username | Your affiliation | **Chapter-2:** Sustainability ([#9](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/9)) |
+| Your name | @username | Your affiliation | **Chapter-2:** Community ([#18](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/18)) |
 | Your name | @username | Your affiliation | **Chapter-3:** Four Views overview ([#10](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/10)) |
 | Your name | @username | Your affiliation | **Chapter-3:** Three-Tiers View ([#11](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/11)) |
 | Your name | @username | Your affiliation | **Chapter-3:** Software Lifecycle View ([#12](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/12)) |
