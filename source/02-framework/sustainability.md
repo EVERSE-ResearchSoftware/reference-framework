@@ -85,6 +85,10 @@ The following is a non-exhaustive list of tools that can help assess or improve 
 - **Governance:**
   - Source code scanning tools: including License, copyright and export control compliance tools (e.g. FOSSology, SPDX tools)
   - Software Management Plans
+- **Archival:**
+  - Software Heritage (SWH), Zenodo (via GitHub/GitLab integration)
+- **Citation*:**
+  - Metadata Standards: CITATION.cff, CodeMeta
 
 There are many open-source tools available in this space to support these practices.
 
