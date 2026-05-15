@@ -2,6 +2,47 @@
 
 Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 
+# TF2 Meeting Agenda — 18 May 2026
+
+**Date:** Monday, 18 May 2026 **Time:** 11:00 UK / 12:00 CET **Location:** <https://us02web.zoom.us/j/83181471617>
+
+**Attending:**
+
+**Apologies:**
+
+## A. Actions from 20 April
+
+- Giacomo — check AI work feasibility/legitimacy with Fotis
+- Giacomo — find section owners for #12 (Lifecycle), #13 (Personas), #14 (Science Clusters), #15 (Conclusions)
+- Giacomo — open issue for Senem/training references
+- Daniel — review and improve sections #6–#9, #18; add missing technical indicators to indicators catalogue
+- Shoaib — review and own #4, #5; draft audience statement
+- Thomas — review and own #10, #11
+- Hugo — schedule and hold feedback meeting with Daniel/Stefan on chatbot
+- Faruk — complete citation files review round
+
+## B. RF section review — progress and open PRs
+
+- Thomas: sustainability chapter PR open on upstream (`sustainability` branch) — review and merge plan
+- Daniel: progress on technical dimensions and indicators
+- Shoaib: audience statement draft
+- Outstanding owners for #12, #13, #14, #15 — assign or defer
+
+## C. AI and EVERSE
+
+- Feasibility/scope check result (Giacomo/Fotis)
+- Hugo: chatbot update — feedback from Daniel/Stefan; direction (MCP approach); deployment question
+- Hugo: training catalogue agent — progress with Kenneth
+- Agree AI workplan for remaining ~10 months: priorities, owners, timeline
+
+## D. AOB
+
+- Training references in RF — Senem Otles issue (WP5.3)
+
+## Key actions
+
+---
+
 # TF2 Meeting Minutes — 20 April 2026
 
 **Date:** Monday, 20 April 2026 **Time:** 11:00 UK / 12:00 CET **Location:** <https://us02web.zoom.us/j/83181471617?pwd=NGZIaDIvTXhEN0JsVWtXRk5uN2Uzdz09>
