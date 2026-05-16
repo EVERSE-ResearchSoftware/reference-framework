@@ -2,57 +2,100 @@
 
 Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 
-# TF2 Meeting Agenda — 20 April 2026
+# TF2 Meeting Agenda — 18 May 2026
 
-**Date:** Monday, 20 April 2026 **Time:** 11:00 UK / 12:00 CET **Location:** <https://us02web.zoom.us/j/83181471617?pwd=NGZIaDIvTXhEN0JsVWtXRk5uN2Uzdz09>
+**Date:** Monday, 18 May 2026 **Time:** 11:00 UK / 12:00 CET **Location:** <https://us02web.zoom.us/j/83181471617>
 
 **Attending:**
 
 **Apologies:**
 
-## Agenda items
+## A. Actions from 20 April
 
-### Outstanding actions from 23 March
+- Giacomo — check AI work feasibility/legitimacy with Fotis
+- Giacomo — find section owners for #12 (Lifecycle), #13 (Personas), #14 (Science Clusters), #15 (Conclusions)
+- Giacomo — open issue for Senem/training references
+- Daniel — review and improve sections #6–#9, #18; add missing technical indicators to indicators catalogue
+- Shoaib — review and own #4, #5; draft audience statement
+- Thomas — review and own #10, #11
+- Hugo — schedule and hold feedback meeting with Daniel/Stefan on chatbot
+- Faruk — complete citation files review round
 
-- Faruk — set up org-level GitHub Actions workflow to validate all EVERSE citation files across EVERSE-ResearchSoftware; raise a PR per repo (cffinit suggested as validation tool)
-- Giacomo — create and initialise an AI-EVERSE repository for collecting EVERSE work on AI and research software quality (guidelines, skills files, recommendations)
-- Giacomo — create GitHub issues per RF section; post to Mattermost for volunteer assignment
-- Shoaib — draft audience statement for RF v3 (first draft, to be iterated); review and update scope and goals section
-- Michael — review definitions section; share AI/RSQKit draft page (using AI to improve RSQ) within days
-- All — review RF v2.1 on GitHub; flag issues or questions
+## B. RF section review — progress and open PRs
 
-### Updates
+- Thomas: sustainability chapter PR open on upstream (`sustainability` branch) — review and merge plan
+- Daniel: progress on technical dimensions and indicators
+- Shoaib: audience statement draft
+- Outstanding owners for #12, #13, #14, #15 — assign or defer
 
-**Feedback from EVERSE Africa engagement event**
+## C. AI and EVERSE
 
-- Good practices breakout (n=9): participants were experienced — all familiar with version control, testing, CI/CD, documentation and code review. Software management plans had the lowest current use (6/9) but was the only practice selected by all respondents as planned for adoption. Main obstacles: skills deficit, time, funding focused on new features rather than maintenance.
-- Indicators breakout (n=9): lower baseline familiarity than practices. Test coverage most widely measured (6/9); maintainability least (2/9), but highest planned uptake (4/6) — largest gap of any indicator. Obstacles include expertise, connectivity constraints, and difficulty measuring quality for externally distributed software.
-- Michael Sparks has been developing an idea around software entropy as a lens for formalising metrics currently measured informally (brittleness, code churn, entanglement, coupling). The concept draws on Lehman's laws of software evolution. One Africa event respondent independently cited software entropy as a needed concept — worth tracking as a candidate for the indicators repository.
-- Daniel flagged post-GAM that some indicators are better characterised as project health metrics rather than software quality indicators. The Africa poll data supports this: respondents spontaneously listed forks, active contributor counts, and resourcing alongside code-level metrics. Worth deciding whether the RF or the indicators repository should make this distinction explicit.
-- The poll data offers indirect support for community as an additional quality dimension: respondents unprompted listed forks, open issues, and active contributor counts as metrics they already track, and cited domain knowledge transfer and team dynamics as quality obstacles. No respondent explicitly requested a community dimension, so the evidence is inferential rather than direct.
+- Feasibility/scope check result (Giacomo/Fotis)
+- Hugo: chatbot update — feedback from Daniel/Stefan; direction (MCP approach); deployment question
+- Hugo: training catalogue agent — progress with Kenneth
+- Agree AI workplan for remaining ~10 months: priorities, owners, timeline
 
-**Community dimension update**
+## D. AOB
 
-Added a new Community dimension (section 2.5) to the Reference Framework, covering community health for research software: governance structures, contributor engagement, communication channels, community health metrics, and integration with research communities. The section includes good enough practices and a tools list. A tracking issue (#18) has been opened with subtasks to review overlaps with the Sustainability, Open Source Software, FAIR, and Technical dimensions. All sections are open for review. PR #19 is open for review.
+- Training references in RF — Senem Otles issue (WP5.3)
 
-**Reference Framework review plan**
+## Key actions
 
-A section owners table has been added to the README, with one row per section linked to a dedicated tracking issue in the upstream repository. Issues #4–#15 cover all existing sections (Introduction, Framework overview, each dimension, all four Views, and Conclusions); issue #18 covers the new Community dimension. All sections are open for review.
+---
 
-Giacomo has posted to Mattermost inviting volunteers to claim sections by opening a PR to add their name to the table. Where no volunteer comes forward, owners will be assigned.
+# TF2 Meeting Minutes — 20 April 2026
 
-### AI and EVERSE
+**Date:** Monday, 20 April 2026 **Time:** 11:00 UK / 12:00 CET **Location:** <https://us02web.zoom.us/j/83181471617?pwd=NGZIaDIvTXhEN0JsVWtXRk5uN2Uzdz09>
 
-Two tracks confirmed at 23 March meeting:
+**Attending:** Giacomo Peru, Daniel Garijo, Faruk Diblen, Shoaib Sufi (late), Thomas Vuillaume, Hugo Bacard (CERN, joined ~47 min), Senem Otles (joined near end)
 
-**Track 1 — policy and position:** high-level recommendations on AI and research software quality, feeding into the project policy brief (due February 2027). SSI workshop report (Edinburgh, March) expected ~2 months; to be circulated as input when available.
+**Apologies:** Michael Sparks
 
-**Track 2 — practical RSQKit guidance:** three pages scoped: (1) using tools to improve research software quality; (2) using AI to develop research software; (3) using AI to assess and improve research software quality. Michael circulating draft of page 3 for comment.
+## A. Actions from 23 March
 
-For discussion:
-- Agree AI workplan for remaining 11 months
-- EVERSE-flavoured AI skills files — scope and ownership (Faruk, David/Hugo)
-- Hugo Bacard update (expected at this meeting): AI work at CERN, RSQKit chatbot prototype, AI-assisted metadata for training catalogue
+- **Faruk / citation files:** Org-level GH Actions workflow not feasible; instead went through repos individually, raised PRs for missing files. Another review round pending. RF citation file discussed — whether CITATION.cff applies to a document rather than software is unresolved; left open.
+- **Giacomo / AI-EVERSE repo:** Done ✅
+- **Giacomo / GitHub issues + Mattermost post:** Done ✅
+- **Shoaib / audience statement:** Assigned at this meeting (see below).
+- **Michael / definitions + AI draft:** Absent; no update.
+
+## B. Africa engagement event — discussion
+
+Daniel: several current indicators are better described as project health metrics rather than software quality metrics. RSQKit also lacks technical code quality indicators (cyclomatic complexity, coupling, maintainability) — adding them risks losing the science cluster audience due to terminology. Agreement: no new dimensions to be added at this stage. Daniel suggested reframing as a "quality and health framework" — noted, not agreed.
+
+Faruk: needs frequent indicator releases so dashboards stay in sync with RSQKit.
+
+Giacomo proposed an industry engagement workshop in September/October for external feedback. Shoaib skeptical about relevance of industry to research software context; left open.
+
+## C. Section ownership
+
+Assignments agreed:
+
+| Issues | Owner |
+|--------|-------|
+| #4 Introduction, #5 Framework overview (incl. audience statement) | Shoaib |
+| #6 Technical, #7 FAIRness, #8 OSS, #9 Sustainability, #18 Community | Daniel |
+| #10 Four Views overview, #11 Three-Tiers view | Thomas |
+| #12 Lifecycle, #13 Personas, #14 Science Clusters, #15 Conclusions | TBC — Giacomo to find owners |
+
+Senem Otles (WP5.3): read the document, wants to embed training references in the lifecycle/personas sections. Giacomo to open an issue.
+
+## D. AI and EVERSE
+
+**Hugo Bacard update:** Built a chatbot connected to RSQKit files; awaiting feedback. Meeting with Daniel/Stefan to review it never took place. Separately building an AI agent to populate the training catalogue with Kenneth (meeting ~end of April). Confirmed attendance for 18 May.
+
+Shoaib feedback on chatbot: needs to be trained not only on RSQKit pages but also on what they link to. MCP approach now preferred over RAG. Shoaib positive about deploying it; noted UKRI funders are asking what projects are doing with AI. Hugo: has model access; deployment as a service needs permission.
+
+AI skills files discussion: concern raised about social acceptability of AI-drafted content. General view: proceed openly with AI assistance, transparency required. Faruk: general principles safer than specific tool guidance given pace of change. Giacomo: will check feasibility of AI work within project scope with Fotis.
+
+## Key actions
+
+- **Giacomo** — check AI work feasibility/legitimacy with Fotis; find owners for #12, #13, #14, #15; open issue for Senem/training references
+- **Daniel** — review and improve sections #6–#9, #18; add missing technical indicators to indicators catalogue; open tracking issues
+- **Shoaib** — review and own #4, #5; draft audience statement
+- **Thomas** — review and own #10, #11
+- **Hugo** — schedule feedback meeting with Daniel/Stefan on chatbot; attend 18 May
+- **Faruk** — complete citation files review round
 
 ### Next meeting
 
