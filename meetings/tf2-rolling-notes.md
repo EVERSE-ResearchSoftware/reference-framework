@@ -2,44 +2,74 @@
 
 Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 
-# TF2 Meeting Agenda — 18 May 2026
+# TF2 Meeting Minutes — 18 May 2026
 
 **Date:** Monday, 18 May 2026 **Time:** 11:00 UK / 12:00 CET **Location:** <https://us02web.zoom.us/j/83181471617>
 
-**Attending:**
+**Attending:** Giacomo Peru, Daniel Garijo, Neil Chue Hong, Shoaib Sufi, Faruk Diblen, Jason, Michael Sparks
 
-**Apologies:**
+**Apologies:** Hugo Bacard (daughter unwell), Thomas Vuillaume (expected, did not join)
+
+## Pre-meeting update from Hugo
+
+- **TeSS Metadata Extractor Agent:** built with Kenneth Rioja; repo at <https://github.com/kennethrioja/TeSS-Metadata-Extractor-Agent>. Works but blocked on LLM resources — AI4EOSC too slow and limited for agentic workflows; Kenneth deploying in TeSS UI pending stable compute.
+- **RSQKit chatbot:** Hugo considers the RAG-based prototype outdated; recommends moving to an agentic workflow that can also fetch linked resources from RSQKit pages. Main blockers: LLM resources and formal authorisation to use AI within EVERSE.
 
 ## A. Actions from 20 April
 
-- Giacomo — check AI work feasibility/legitimacy with Fotis
-- Giacomo — find section owners for #12 (Lifecycle), #13 (Personas), #14 (Science Clusters), #15 (Conclusions)
-- Giacomo — open issue for Senem/training references
-- Daniel — review and improve sections #6–#9, #18; add missing technical indicators to indicators catalogue
-- Shoaib — review and own #4, #5; draft audience statement
-- Thomas — review and own #10, #11
-- Hugo — schedule and hold feedback meeting with Daniel/Stefan on chatbot
-- Faruk — complete citation files review round
+- **Giacomo:** No progress on Fotis check, section owners (#12–#15), or Senem issue.
+- **Thomas:** Sustainability PR submitted; not yet reviewed by Giacomo.
+- **Shoaib:** No update.
+- **Daniel:** Working on community dimension indicators. Raised: no cited source exists for community as a quality dimension. Original ten dimensions derived from ISO; sustainability has references; community does not.
+- **Neil:** Can provide sources for the definition of community and for why community matters for software quality — the two come from different areas; the intersection is the novel EVERSE contribution. Will share links.
+- **Agreed:** EVERSE Reference Framework will be the primary reference for community as a quality dimension; Daniel to add Neil's links as preparatory works.
+- **Faruk:** Citation files — knows which repos are missing; added files and workflows to several; will continue. Tracking via direct PRs on relevant repos.
 
-## B. RF section review — progress and open PRs
+## B. RF section review
 
-- Thomas: sustainability chapter PR open on upstream (`sustainability` branch) — review and merge plan
-- Daniel: progress on technical dimensions and indicators
-- Shoaib: audience statement draft
-- Outstanding owners for #12, #13, #14, #15 — assign or defer
+No substantive updates beyond the above. Thomas's sustainability PR remains open and unreviewed.
 
-## C. AI and EVERSE
+## C. AI and EVERSE — Hugo's update (in absentia)
 
-- Feasibility/scope check result (Giacomo/Fotis)
-- Hugo: chatbot update — feedback from Daniel/Stefan; direction (MCP approach); deployment question
-- Hugo: training catalogue agent — progress with Kenneth
-- Agree AI workplan for remaining ~10 months: priorities, owners, timeline
+Shoaib: RSQKit team not in close contact with Hugo. Chatbot integration was agreed in principle at the last meeting, but the new agentic approach is more computationally expensive and blocked on resources and policy. Not a core RSQKit deliverable but desirable. Needs compute and authorisation resolution before progress can be made.
 
-## D. AOB
+Faruk: NLeSC has a small internal project on the effects of AI on research software; will connect it to EVERSE efforts. Everything will be open.
 
-- Training references in RF — Senem Ontem issue (WP5.3)
+Agreed: Giacomo to clarify scope with Fotis before the next meeting. Hugo to attend June meeting and present on both projects.
+
+## D. AI and openness
+
+Giacomo raised: the NHS has made its GitHub repositories private, citing concerns about AI scraping. Does this affect what EVERSE means by openness? Is openness the same as public availability?
+
+Discussion:
+
+- **Faruk:** Cybersecurity has become a top concern; AI makes finding vulnerabilities easier; national infrastructure providers (e.g. SURF in NL) closing access weekly for security fixes. AI-generated code may also introduce vulnerabilities developers are unaware of.
+- **Shoaib:** Is making code available inherently more insecure? The core question is whether code availability is the actual risk, or whether this is a knee-jerk response. Dynamic attacks on running services don't depend on source code access.
+- **Jason:** Important to distinguish (1) services (public-facing) from scripts/local applications — different threat models; and (2) AI finding bugs in existing code vs. AI-generated code introducing bugs — these need treating differently.
+- **Michael:** The traditional argument for open source security (community finds bugs faster than attackers) rests on an assumption AI is now challenging. Closing repositories is a natural response while that assumption is re-evaluated — it is one layer of defence, not a solution. The security argument for openness may need to change because the underlying assumptions have changed.
+- **Neil:** The effort asymmetry between intrusion and detection is amplified by AI. Supply chain attacks increasingly relevant. NHS closing repos may be too late (code already public) but is a sensible precaution under uncertainty. CVE counts are rising. For EVERSE: the quality dimensions are still valid but the attack surface understanding needs to be wider.
+- **Jason:** Closing repositories also has infrastructure costs — much of the open source tooling (GitHub Actions etc.) is sponsored specifically for public repos; going private limits what you can use.
+- **Zoom chat (Neil):** "Or do we say the balance of benefit and risk is still in support of open research software, but the way that you think about research software quality has changed?"
+
+**Agreed:** Open an issue in the AI-EVERSE repo to gather thoughts and references on this topic; revisit after summer with a view to producing a scoped statement.
+
+## E. AOB
+
+- **RSQKit writing workshop — 30 June:** Shoaib organising a three-hour session focused on unwritten RSQKit task pages. AI tools will be available to help draft content and suggest structure (optional). Invitation is to bring domain experts/RSEs, not only the EVERSE team. Registration via Indico going live today/tomorrow. This will kick off a series of monthly RSQKit writing sessions.
+- **DashVERSE external interest:** Patrick Rein (PIK Potsdam, Land Use Transition Lab) reached out about DashVERSE cloud status and beta testing. Faruk has drafted a response; Giacomo to forward the email.
 
 ## Key actions
+
+- **Giacomo** — check AI work scope with Fotis; open issue in AI-EVERSE repo on open vs. closed repositories; find owners for #12, #13, #14, #15; open Senem Ontem issue; forward Patrick Rein email to Faruk
+- **Neil** — share references for community dimension (definition + importance for quality)
+- **Daniel** — add Neil's references to community dimension; continue indicators work
+- **Faruk** — continue citation files; connect NLeSC AI project to EVERSE
+- **Hugo** — attend June meeting; present on TeSS agent and chatbot direction; discuss compute/authorisation
+- **All** — spread word about RSQKit writing workshop (30 June)
+
+### Next meeting
+
+Monday, 15 June 2026, 11:00 UK / 12:00 CET
 
 ---
 
