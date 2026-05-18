@@ -8,7 +8,12 @@ Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 
 **Attending:**
 
-**Apologies:**
+**Apologies:** Hugo Bacard (daughter unwell)
+
+## Pre-meeting update from Hugo
+
+- **TeSS Metadata Extractor Agent:** built with Kenneth Rioja last week; repo at <https://github.com/kennethrioja/TeSS-Metadata-Extractor-Agent>. Works but blocked on LLM resources — AI4EOSC too slow and limited; Kenneth deploying in TeSS UI pending stable compute.
+- **RSQKit chatbot:** Hugo considers the RAG-based prototype outdated. Recommends moving to an agentic workflow that can also fetch linked resources from RSQKit pages. Main blockers remain: LLM resources and formal authorisation to use AI within EVERSE. Agentic workflows multiply LLM calls significantly (hit errors at 5 calls/loop on AI4EOSC).
 
 ## A. Actions from 20 April
 
@@ -38,6 +43,7 @@ Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 ## D. AOB
 
 - Training references in RF — Senem Otles issue (WP5.3)
+- **External interest in DashVERSE:** Patrick Rein (RSE team, Land Use Transition Lab, PIK Potsdam) reached out asking about DashVERSE cloud status and beta testing opportunities — for awareness/routing to the right WP.
 
 ## Key actions
 
