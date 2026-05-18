@@ -37,7 +37,7 @@ Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 
 ## D. AOB
 
-- Training references in RF — Senem Otles issue (WP5.3)
+- Training references in RF — Senem Ontem issue (WP5.3)
 
 ## Key actions
 
@@ -78,7 +78,7 @@ Assignments agreed:
 | #10 Four Views overview, #11 Three-Tiers view | Thomas |
 | #12 Lifecycle, #13 Personas, #14 Science Clusters, #15 Conclusions | TBC — Giacomo to find owners |
 
-Senem Otles (WP5.3): read the document, wants to embed training references in the lifecycle/personas sections. Giacomo to open an issue.
+Senem Ontem (WP5.3): read the document, wants to embed training references in the lifecycle/personas sections. Giacomo to open an issue.
 
 ## D. AI and EVERSE
 
