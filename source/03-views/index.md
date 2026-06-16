@@ -4,7 +4,7 @@ The EVERSE reference framework recognises that research software quality cannot 
 
 These four views are:
 
-- **Three-Tiers View**: Recognises that different types of research software---from personal analysis scripts to broadly-used research infrastructure---have distinct quality requirements and stakeholder needs
+- **Three-Tiers View**: Recognises that different types of research software (Analysis Code, Prototype Tools, Research Software Infrastructure) have distinct quality requirements and stakeholder needs
 - **Software Lifecycle View**: Acknowledges that quality considerations vary depending on where software sits in its development and maintenance lifecycle
 - **Personas View**: Understands that different roles in the research ecosystem (researchers who code, RSEs, principal investigators, policy makers, trainers) have varying priorities and responsibilities regarding software quality
 - **Science Clusters View**: Recognises that different research domains and communities have established practices, standards, and cultural approaches that influence how software quality is understood and implemented
