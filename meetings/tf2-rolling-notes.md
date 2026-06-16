@@ -16,17 +16,31 @@ Hugo's AI work within EVERSE covers two streams: a RAG-based RSQKit chatbot (pro
 
 Key question raised: is a custom chatbot worthwhile given that general LLMs already handle RSQKit content adequately? The case rests on privacy (self-hosted model, no third-party data exposure) and deeper integration (following links within RSQKit pages). Hugo proposes a modular architecture — static RAG first, web search activatable via config flag later. Three issues filed in ai-everse: #2 (use case), #3 (compute), #4 (authorisation).
 
-## A. Actions from 18 May
+## A. Actions from 18 May — update
 
-## B. Hugo: AI tools update
+Done ahead of this meeting:
+- GitHub issues assigned to agreed owners: Daniel (#6, #7, #8, #18), Shoaib (#4, #5, #20), Thomas (#10, #11)
+- Neil nudged on community dimension references (#18)
+- Shoaib nudged on audience statement (#20)
+- Thomas nudged on views chapters (#10, #11)
+- AI and openness issue published to ai-everse (#1)
+- 3 new ai-everse issues filed from 1:1 with Hugo (#2, #3, #4)
+
+Still outstanding: Fotis check on AI scope; Senem issue; Patrick Rein email to Faruk.
+
+## B. Reference Framework review status
+
+18 open issues. Owners now assigned across all framework and views chapters. Only active PR: #26 (Thomas's sustainability rewrite — Giacomo reviewing before this meeting). #12–#15 remain unowned (raised on Mattermost). Daniel working on community indicators (#18), waiting on Neil's references.
+
+## C. Hugo: AI tools update
 
 TeSS agent and RSQKit chatbot/assistant — update and discussion. See pre-meeting note and ai-everse issues [#2](https://github.com/EVERSE-ResearchSoftware/ai-everse/issues/2), [#3](https://github.com/EVERSE-ResearchSoftware/ai-everse/issues/3), [#4](https://github.com/EVERSE-ResearchSoftware/ai-everse/issues/4).
 
-## C. Section ownership: #12–#15
+## D. Section ownership: #12–#15
 
 Lifecycle, personas, science clusters, conclusions — still unowned. Raised on Mattermost; volunteers needed.
 
-## D. AOB
+## E. AOB
 
 - RSQKit contentathon — 30 June
 - Mattermost archiving in July — move to Matrix
