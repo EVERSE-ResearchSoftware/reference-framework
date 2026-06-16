@@ -10,3 +10,5 @@ These four views are:
 - **Science Clusters View**: Recognises that different research domains and communities have established practices, standards, and cultural approaches that influence how software quality is understood and implemented
 
 Each view offers a lens through which the core quality dimensions (Technical, FAIR, Open Source, and Sustainability) can be interpreted and prioritised. Rather than being mutually exclusive, these views are designed to work together, allowing users to consider multiple perspectives when assessing or improving research software quality. The framework's strength lies in this multi-faceted approach, enabling it to serve the diverse needs of the European research software community while maintaining coherence in its underlying principles.
+
+![The four views of software quality of the EVERSE reference framework](../figures/figure4-four-views.png){ width=55% }
