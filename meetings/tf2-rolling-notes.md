@@ -2,6 +2,40 @@
 
 Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 
+# TF2 Meeting Minutes — 22 June 2026
+
+**Date:** Monday, 22 June 2026 **Time:** 11:00 UK / 12:00 CET **Location:** <https://us02web.zoom.us/j/83181471617>
+
+**Attending:**
+
+**Apologies:**
+
+## Pre-meeting note — 1:1 Giacomo / Hugo Bacard, 16 June 2026
+
+Hugo's AI work within EVERSE covers two streams: a RAG-based RSQKit chatbot (prototype exists, repo unmaintained) and a TeSS metadata extractor agent (working prototype with Kenneth Rioja). Both are blocked on compute (EOSC/AI4EOSC insufficient for agentic workflows) and on formal authorisation to use AI within the project.
+
+Key question raised: is a custom chatbot worthwhile given that general LLMs already handle RSQKit content adequately? The case rests on privacy (self-hosted model, no third-party data exposure) and deeper integration (following links within RSQKit pages). Hugo proposes a modular architecture — static RAG first, web search activatable via config flag later. Three issues filed in ai-everse: #2 (use case), #3 (compute), #4 (authorisation).
+
+## A. Actions from 18 May
+
+## B. Hugo: AI tools update
+
+TeSS agent and RSQKit chatbot/assistant — update and discussion. See pre-meeting note and ai-everse issues [#2](https://github.com/EVERSE-ResearchSoftware/ai-everse/issues/2), [#3](https://github.com/EVERSE-ResearchSoftware/ai-everse/issues/3), [#4](https://github.com/EVERSE-ResearchSoftware/ai-everse/issues/4).
+
+## C. Section ownership: #12–#15
+
+Lifecycle, personas, science clusters, conclusions — still unowned. Raised on Mattermost; volunteers needed.
+
+## D. AOB
+
+- RSQKit contentathon — 30 June
+- Mattermost archiving in July — move to Matrix
+- Next call
+
+## Key actions
+
+---
+
 # TF2 Meeting Minutes — 18 May 2026
 
 **Date:** Monday, 18 May 2026 **Time:** 11:00 UK / 12:00 CET **Location:** <https://us02web.zoom.us/j/83181471617>
