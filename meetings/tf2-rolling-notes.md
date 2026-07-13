@@ -2,13 +2,13 @@
 
 Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 
-# TF2 Meeting Agenda — 13 July 2026
+# TF2 Meeting Minutes — 13 July 2026
 
 **Date:** Monday, 13 July 2026 **Time:** 11:00 UK / 12:00 CET **Location:** <https://us02web.zoom.us/j/83181471617>
 
-**Attending:** Fotis, Carlos (from 11:15)
+**Attending:** Giacomo Peru, Neil Chue Hong, Fotis, Caterina Doglioni, Michael Sparks, Natalia (new OpenAIRE contact, replacing Stefania), Hugo Bacard, Shoaib Sufi
 
-**Apologies:**
+**Apologies:** Carlos did not appear to join (not audible in the transcript, despite being expected from 11:15)
 
 ## A. AI position
 
@@ -43,7 +43,54 @@ PR #26 (sustainability) and PR #30 (Three-Tiers View) open, unreviewed. #12–#1
 
 Mattermost → CERN migration. Helmholtz read-only 15 July.
 
+## Discussion — 13 July call
+
+The call was almost entirely about AI; RF section reviews and Mattermost were not discussed live.
+
+**Fotis's five-point draft AI statement.** Fotis shared five initial points he intends to feed into the policy brief, already used informally as input for Guido's EU ESC talk and discussed briefly at MARB. Not finalised, offered for comment:
+1. Software must be recognised as the necessary substrate for AI — without software, AI is just files/weights.
+2. Track and flag when code is AI-generated vs human-authored/curated.
+3. Frame explainability/traceability as a software-quality dimension; fund tooling/infrastructure that can audit AI-generated code.
+4. Fund software maintenance as a centrally-funded activity in its own right ("the hill Fotis will die on") — code generation is now cheap, maintaining and supporting it is not, and requires human judgement.
+5. Define governance for AI agents acting as "software authors" before the line between machine- and human-authored code becomes too blurred to draw.
+
+Feedback on the five points:
+- Neil supports point 4 but flagged a risk: funding for maintenance shouldn't come with an implicit obligation to maintain everything AI generates. Suggested TF2 needs to work out how point 4 ties to point 1 and to software quality more broadly, not just maintenance.
+- Caterina agreed funding is central but said point 4 needs very careful wording — funders (especially in the UK) are already primed to believe software is disposable/regenerable, so the statement needs to make the real cost of AI-generated code visible before asking for money. She rated point 5 as equally important from a training/culture angle: she is seeing students on Google Summer of Code effectively delegating tasks to AI rather than learning, which she sees as damaging to open-source contributor culture. Suggested point 5 could work as a no-cost policy recommendation (e.g. aimed at a body like OECD) since it doesn't require funding, just guidance.
+- Michael Sparks made a broader point: as AI produces more code, the domain- and software-engineering expertise needed to check correctness becomes scarcer relative to output volume, not more abundant — the opposite of the usual "AI creates abundance" framing. Argued the discussion should focus on people and roles in the process (who reads the paper, who checks the spec, who verifies the code against it) rather than just "human in the loop"; some of these roles can be automated when reproducing known work, but extending into new work still needs people, so throughput is capped by people, not machines.
+- Giacomo pushed back gently on how widespread the "software is free now" belief actually is, at least in his own environment, and drew on RSMF experience: funding decisions should follow research-software impact and user base rather than lines of code, since code volume alone is now cheap to produce.
+- Fotis's own synthesis: most current AI-related problems trace back to poor software quality; the throughline across all five points is that we need to distinguish fully-AI-generated code from code that has been curated/reviewed by humans, and fund the curation/maintenance effort directly rather than just the initial creation.
+- Shoaib raised a gap: the whole statement assumes a baseline level of AI knowledge and practice that most people don't have. Proposed adding an explicit capacity-building element — training material and a commitment to raising the general skill level so people can actually engage with the position once published.
+
+**Timeline and ownership.** Fotis said the policy brief deadline is "February... March will probably be the deadline" (transcript unclear which is authoritative — worth confirming, since prior planning assumed Feb 2027). Plan: iterate through the summer and into Sept/Oct via whatever channels are available (weekly management meetings, etc.), aim for a reasonably mature version by the November stakeholder event to gather wider external feedback, then two more months to finalise. He is also planning to add non-AI-related points to the same brief (e.g. European software sovereignty). For now he is the sole owner/editor; document lives on SharePoint/Mattermost boards, not yet in the ai-everse GitHub repo — he had no strong objection to moving it there, just hasn't done so.
+
+**Infrastructure question (local vs frontier models).** Shoaib asked whether EVERSE has (or should have) a position on local vs frontier AI models — relevant to privacy, equity, and MCP-enabled tooling — and suggested this belongs in the policy document rather than RSQKit. Caterina agreed it's a policy-level, equity issue (not everyone can afford frontier-model compute) but also wants practical RSQKit content on setting up and reviewing local coding models, and offered to share her own experience. Fotis was cautious about committing to any specific infrastructure position given how fast the landscape moves (his example: MCP-to-agent tooling has changed significantly in the last 3-4 months); prefers treating this as caveated "good practice" pointers/reading list rather than firm policy. He also flagged a related EOSC-funded project, informally referred to as "GenAI" and led by someone whose name did not transcribe clearly, pursuing a different AI-infrastructure approach to EOSC/AI4EOSC — worth keeping an eye on as a possible parallel/competing effort.
+
+**Guido's EU ESC (Brussels) talk.** Already happened by the time of this call, so nothing further needed from EVERSE for it. Fotis will try to obtain any slides/recording shared by the organisers or Commission. The session Guido led was specifically on "AI and software"; Fotis is mainly interested in what input/feedback came out of it.
+
+**Michael Sparks document — walkthrough.** Michael talked through the AI Intensity Spectrum diagram. He deliberately rejected framing this as a "ladder" or numbered "steps" (implies one level is inherently better, which he doesn't think is true or useful) in favour of a spectrum/classification by intensity — where higher intensity means more tokens, more resources, more review burden, not more merit. Traditional coding sits at one end; no-GenAI-use is a legitimate position at the other (compliance, risk, or practical reasons). Each level carries its own risks (e.g. ownership confusion, over-trusting high-quality-looking output leading to real incidents — dropped databases, deleted email archives, bad production pushes). Scope is larger than a single RSQKit page — it will become a page collection (similar to the existing CI/CD or citation collections), with the diagram as the top-level orientation page; Michael is currently splitting the long source document into smaller pieces.
+
+Feedback:
+- Caterina liked it overall, minor tweaks suggested. Flagged a risk that AI-sceptical readers may dismiss it purely because it visually reads as AI-generated (styling/fonts); suggested using Michael's draft as raw input/a first pass, then having the group produce a distinct "final" human-edited version, to avoid losing part of the audience. Liked that it preserves the three broad categories (traditional / assisted / generated) also used in the "Ten Rules for Research Software" reference cited in the document.
+- Neil strongly endorsed the framing as a way to stop different audiences talking past each other about "AI use" — likes both the three broad categories and the per-level risk mapping. Suggested applying the same framework to human-only vs mixed human/AI collaborative development, to extend into how EVERSE talks about quality in mixed teams. Shares Caterina's audience-loss concern but isn't worried about it yet at this exploratory stage, as long as it's addressed before wider release.
+- Natalia (attending for the first time) hadn't read the full document but asked for it to be made more actionable — e.g. clicking through to a listed risk should surface concrete guidance on what to actually do, and each risk/practice should be tied to a specific audience (RSE, lab PI, funder, etc.).
+- Giacomo agreed an actionable/tool-like implementation would be valuable and offered to put Michael's document on a future TF2 agenda if people want to keep discussing it.
+
+**Hugo: RSQKit chatbot and TeSS metadata agent.** Recap: the RAG-based RSQKit chatbot demo raised the question of how to improve it, particularly having it follow links out from RSQKit pages rather than just the pages themselves. Separately, the TeSS metadata-extraction agent (built with Kenneth Rioja, ~May) works but is constrained by available LLM/compute resources. Hugo said he doesn't know how to prioritise next steps given the resource constraints and the still-unresolved authorisation/policy questions, and asked for a collective steer.
+- Shoaib recapped an earlier RSQKit editorial-board discussion: the chatbot should ideally index RSQKit pages plus one level of outbound links ("pages plus one"), since some pages are conceptual overviews pointing to deeper external material — not a hard requirement, but a worthwhile experiment; would enlarge the RAG index.
+- A further stretch goal was raised (Michael/Hugo): turning RSQKit task pages into "skills" that could act directly on a user's own codebase (e.g. "improve this code against this practice") rather than only answering questions about RSQKit content.
+- Discussion paused for time; there are open questions about hosting and compute implications of enabling this kind of search/agent behaviour. Deferred to the 17 August call — though Hugo will be on leave and unable to attend (back 24 August).
+
+**Caterina: HSF/ESCAPE "responsible coding with AI" event, 29 July.** EVERSE (via Caterina) is informally connected to an HSF/ESCAPE event on responsible AI coding, in two weeks. Framed as a community-of-practice session (people sharing real experience) rather than a heavily promoted event; limited engagement expected given short notice and timing. Michael and Caterina will personally contribute; there's a security-policy angle too (e.g. not leaking tokens). Caterina's proposal: keep the two efforts largely separate rather than presenting the full EVERSE policy discussion there — bring back a summary of EVERSE's work into HSF/ESCAPE instead. Note: HSF has been asked by its computing committee for practical AI-contribution guidelines on a Sept/Oct timescale, which is faster than EVERSE's own policy timeline — a timeline mismatch worth being aware of.
+- Agreed content for 29 July: mainly practical/demonstrable material (RSQKit, Hugo's prototype work), not the unfinished policy brief; a brief mention that policy work is in progress is enough, no detail needed. Fotis will attend but wants Michael to lead the EVERSE presentation. Caterina asked Hugo to send her a short written summary of his work to fold in — kept deliberately lightweight.
+
+**Next meeting.** Confirmed for **17 August**. Note Hugo is on leave from end of July, back 24 August, so will miss this one — his chatbot/TeSS discussion will need to pick up without him or be held over again.
+
 ## Key actions
+
+- Giacomo: organise a separate follow-up meeting after 24 August with Hugo, Fotis, Shoaib, and Michael on chatbot/skills/AI-tooling direction
+- Michael Sparks document — agenda item for 17 August call to continue the discussion
+- Giacomo: PR #26 review — still pending, carried forward again
 
 ---
 
