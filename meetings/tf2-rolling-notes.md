@@ -2,6 +2,48 @@
 
 Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 
+# TF2 Meeting Agenda — 13 July 2026
+
+**Date:** Monday, 13 July 2026 **Time:** 11:00 UK / 12:00 CET **Location:** <https://us02web.zoom.us/j/83181471617>
+
+**Attending:** Fotis, Carlos (from 11:15)
+
+**Apologies:**
+
+## A. AI position
+
+No agreed EVERSE position on AI. Feeds Fotis's policy brief, due February 2027.
+
+## B. Michael Sparks document
+
+"How do you use AI to develop quality research software" — Spectrum of AI Intensity framework. RSQKit split targeted for today.
+
+## C. HSF/ESCAPE collaboration
+
+Caterina Doglioni: HSF/ESCAPE AI-assisted-coding guidelines, lighter-weight than RSQKit, proposed co-organised with EVERSE.
+
+## D. What do we build
+
+No model training. Guidance and skills/prompts. MCPs undecided.
+
+Hugo's prototypes (TeSS metadata agent, RSQKit chatbot) — blocked on compute and authorisation, no change since April.
+
+## E. AI webinar
+
+Joint with ReSA (Michelle Barker), target October/November. Contact not yet made.
+
+## F. RF section reviews
+
+PR #26 (sustainability) and PR #30 (Three-Tiers View) open, unreviewed. #12–#15 unowned. Status only — tracked on GitHub.
+
+## G. AOB
+
+Mattermost → CERN migration. Helmholtz read-only 15 July.
+
+## Key actions
+
+---
+
 # TF2 Meeting Minutes — 22 June 2026
 
 **Date:** Monday, 22 June 2026 **Time:** 11:00 UK / 12:00 CET **Location:** <https://us02web.zoom.us/j/83181471617>
@@ -10,11 +52,9 @@ Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 
 **Apologies:**
 
-## Pre-meeting note — 1:1 Giacomo / Hugo Bacard, 16 June 2026
+No one joined — meeting rescheduled without checking availability. Rescheduled to 13 July. Agenda below kept for reference; superseded where relevant by the 13 July agenda above.
 
-Hugo's AI work within EVERSE covers two streams: a RAG-based RSQKit chatbot (prototype exists, repo unmaintained) and a TeSS metadata extractor agent (working prototype with Kenneth Rioja). Both are blocked on compute (EOSC/AI4EOSC insufficient for agentic workflows) and on formal authorisation to use AI within the project.
-
-Key question raised: is a custom chatbot worthwhile given that general LLMs already handle RSQKit content adequately? The case rests on privacy (self-hosted model, no third-party data exposure) and deeper integration (following links within RSQKit pages). Hugo proposes a modular architecture — static RAG first, web search activatable via config flag later. Three issues filed in ai-everse: #2 (use case), #3 (compute), #4 (authorisation).
+Pre-meeting note (Hugo, 16 June): TeSS agent and RSQKit chatbot prototypes both still blocked on compute and formal AI authorisation — no change since.
 
 ## A. Actions from 18 May — update
 
@@ -34,7 +74,7 @@ Still outstanding: Fotis check on AI scope; Senem issue; Patrick Rein email to F
 
 ## C. Hugo: AI tools update
 
-TeSS agent and RSQKit chatbot/assistant — update and discussion. See pre-meeting note and ai-everse issues [#2](https://github.com/EVERSE-ResearchSoftware/ai-everse/issues/2), [#3](https://github.com/EVERSE-ResearchSoftware/ai-everse/issues/3), [#4](https://github.com/EVERSE-ResearchSoftware/ai-everse/issues/4).
+Did not happen — see pre-meeting note above.
 
 ## D. Section ownership: #12–#15
 
