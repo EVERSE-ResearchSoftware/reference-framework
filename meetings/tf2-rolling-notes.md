@@ -18,6 +18,9 @@ No agreed EVERSE position on AI. Feeds Fotis's policy brief, due February 2027.
 
 "How do you use AI to develop quality research software" — Spectrum of AI Intensity framework. RSQKit split targeted for today.
 
+Google Doc: <https://docs.google.com/document/d/1FrI7I1yaQORtEi7BmFY34CvMAFcz2hskT4cUdlYpZa4/edit>
+Local copy: `~/Desktop/Desktop2026_07_07/task_How_do_you_use_AI_to_develop_quality_research_software.docx`
+
 ## C. HSF/ESCAPE collaboration
 
 Caterina Doglioni: HSF/ESCAPE AI-assisted-coding guidelines, lighter-weight than RSQKit, proposed co-organised with EVERSE.
