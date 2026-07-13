@@ -12,7 +12,7 @@ Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 
 ## A. AI position
 
-No agreed EVERSE position on AI. Feeds Fotis's policy brief, due February 2027.
+No agreed EVERSE position on AI. Feeds Fotis's policy brief, due February 2027, and Guido's EU ESC (Brussels) talk — asked for messaging, not yet provided.
 
 ## B. Michael Sparks document
 
@@ -33,7 +33,7 @@ Hugo's prototypes (TeSS metadata agent, RSQKit chatbot) — blocked on compute a
 
 ## E. AI webinar
 
-Joint with ReSA (Michelle Barker), target October/November. Contact not yet made.
+Joint with ReSA — Carlos contacted Michelle Barker, awaiting outcome. Target early November, after the October industry survey webinar.
 
 ## F. RF section reviews
 
