@@ -19,7 +19,27 @@ Common good practices within the Science Clusters identified from discussion wit
 
 ### 2.4.1 Good enough practices
 
-- **Software maintenance**: regular checks of the code base to ensure quality
+In the context of software quality, _good enough_ refers to proportionality. To be truly sustainable, the effort invested in software quality must match the software's intended lifespan and audience. Over-engineering a single-use script is a waste of research resources, while under-engineering a community library leads to "technical debt" that eventually kills the project. 
+Practices are dynamic. As a project grows from a personal script to a community tool, its "Good Enough" baseline shifts upward.
+
+#### Sustainability Practice Matrix
+
+The following table categorizes practices based on the software's role within the research ecosystem:
+
+| **Practice** | **Tier 1: Analysis Code** | **Tier 2: Prototype tools** | **Tier 3: Research Software Infrastructure** | 
+| :--- | :--- | :--- | :--- | 
+| **Env. & Dependency Management** | Minimal (Lockfiles) | Recommended (Containers/Venv) | Mandatory (Full Reproducibility) | 
+| **Archival & Citation** | Recommended (DOI) | Mandatory | Mandatory | 
+| **Software Maintenance** | Minimal | Recommended |Mandatory | 
+| **CI/CD** | Optional | Recommended | Mandatory | 
+| **Code Review** | Optional | Recommended | Mandatory | 
+| **Community Management** | N/A | Minimal | Mandatory | 
+| **Institutional Governance** | N/A | Optional | Mandatory |
+
+
+#### Definition of Sustainability Practices
+
+- **Software maintenance**: regular checks of the code base to ensure quality and compatibility with updated libraries or operating systems
 - **Refactoring**: examining and rewriting software to be more maintainable, without changing its behaviour
 - **Clearly defined support processes and infrastructure**: providing clear workflows for dealing with future development including bugs and feature development
 - **Code contribution workflows**: to manage the review and integration of new and revised code
@@ -27,8 +47,13 @@ Common good practices within the Science Clusters identified from discussion wit
 - **Code review**: methodical assessment of code to identify bugs, increase code quality and help developers understand the code base
 - **Project templating**: helps setup software projects in a standard way
 - **Project health**: using metrics to ensure the software project is on track, the development team is resilient, and the community of developers / contributors is thriving
-- **Project communication**: mechanisms to engage internally and externally to improve software sustainability through more efficient interactions
+- **Project communication**: mechanisms (chat, mailing lists, website, social media, development platforms) to engage internally and externally to improve software sustainability through more efficient interactions
 - **Governance processes**: the rules, principles and mechanisms to ensure software development aligns with the requirements and ethos/values, and enables compliance with any regulatory requirements
+- **Environment & Dependency Management**: Ensuring the software can be executed in the future by explicitly declaring and "locking" dependencies (e.g., via lockfiles or containerization)
+- **Archival and Citation**: Ensuring the software is preserved in long-term repositories and provides machine-readable metadata to allow researchers to receive academic credit through citation
+- **Community Management (Lightweight Governance)**: The social rules and mechanisms (e.g., Code of Conduct, contribution guides) that enable a community to collaborate effectively and fairly.
+- **Institutional Governance**: The formal principles ensuring alignment with funding requirements, legal compliance (GDPR, licensing), and long-term institutional support.
+
 
 ### 2.4.2 Examples of tools relevant to Software Sustainability
 
@@ -45,7 +70,7 @@ The following is a non-exhaustive list of tools that can help assess or improve 
   - Pull request tooling
   - Integrations with issue / ticketing systems (e.g. GitHub, BitBucket / Jira)
 - **CI/CD:**
-  - CI/CD tools: these automate the building, testing and/or delivery/deployment of software when changes are made (e.g. Jenkins, Bamboo, Travis CI, GitHub Actions)
+  - CI/CD tools: these automate the building, testing and/or delivery/deployment of software when changes are made (e.g. Jenkins, Bamboo, Travis CI, GitHub Actions, GitLab CI)
 - **Code review:**
   - Version control repositories: including code review features like pull requests.
   - Standalone code review tools: (e.g. Gerrit, Collaborator)
@@ -60,6 +85,10 @@ The following is a non-exhaustive list of tools that can help assess or improve 
 - **Governance:**
   - Source code scanning tools: including License, copyright and export control compliance tools (e.g. FOSSology, SPDX tools)
   - Software Management Plans
+- **Archival:**
+  - Software Heritage (SWH), Zenodo (via GitHub/GitLab integration)
+- **Citation*:**
+  - Metadata Standards: CITATION.cff, CodeMeta
 
 There are many open-source tools available in this space to support these practices.
 
