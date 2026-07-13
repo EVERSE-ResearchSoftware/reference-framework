@@ -12,7 +12,29 @@ Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 
 ## A. AI position
 
-No agreed EVERSE position on AI. Feeds Fotis's policy brief, due February 2027, and Guido's EU ESC (Brussels) talk — asked for messaging, not yet provided.
+No agreed EVERSE position on AI. Feeds Fotis's policy brief, due February 2027, and Guido's EOSC (Brussels) talk — asked for messaging, not yet provided.
+
+Fotis's initial thoughts, shared ahead of the call:
+
+1. We need to make sure that research software is treated as the substrate AI runs on and fund it accordingly.
+   - This directly builds on ReSA's 2024 position paper "Research software is critical to the future of AI-driven research" (DOI 10.5281/zenodo.13350748), which argues AI strategies wrongly treat models as extensions of data and exclude the underlying software. The additional element here is to (ideally) have EOSC budget in software and open-source dependency layer explicitly for AI models, not just compute (aka EOSC EU Node, among others).
+
+2. Mandate machine-readable provenance for AI-generated research software, before the attribution window closes.
+   - The goal here is to extend our EVERSE recognition framework and existing software-metadata standards (CodeMeta, CITATION.cff) to record what was human-authored, AI-assisted, or agent-generated. Agent contributions are currently still traceable, but that "signature" will likely disappear as agents integrate more seamlessly, so provenance should be captured now as a funding condition.
+
+3. Reframe the AI reproducibility crisis as a software-quality failure, and fund leakage-auditing tools as infrastructure.
+   - Building on RSQKit: extend software-quality frameworks to ML-specific failure modes (leakage, pipeline determinism, data/model versioning), using this as a mechanism to safeguard at the software level.
+
+4. Make software maintenance the central funded activity, because AI generates code far faster than maintainers.
+   - Effectively building on the Amsterdam Declaration, ADORE, and ReSA's maintenance and personnel recommendations: as agentic coding collapses the cost of writing code, the cost of maintaining it rises sharply (maintenance here means code review, curation, stewardship). Funding by default should go to the scarce, high-value human work, not "new software."
+
+5. Build governance for autonomous agents as research-software authors now, not after they're ubiquitous.
+   - A gap not currently discussed: a clearly defined governance standard for agent contributions, including disclosures, human-review thresholds, accountability, and provenance.
+
+6. Capacity building and direct skill training for humans (not AI).
+   - Training people in this area rather than relying fully on AI. De-skilling is a clear emerging challenge.
+
+Michael Sparks's addition: across all of this, domain and software-engineering experience becomes an even scarcer resource relative to the volume of content being created — and that experience is a human quality necessary for correctness. The framing should be "people in the process," not just "human in the loop."
 
 ## B. Michael Sparks document
 
@@ -24,6 +46,8 @@ Local copy: `~/Desktop/Desktop2026_07_07/task_How_do_you_use_AI_to_develop_quali
 ## C. HSF/ESCAPE collaboration
 
 Caterina Doglioni: HSF/ESCAPE AI-assisted-coding guidelines, lighter-weight than RSQKit, proposed co-organised with EVERSE.
+
+Event: <https://indico.cern.ch/event/1705480/>
 
 ## D. What do we build
 
@@ -47,20 +71,15 @@ Mattermost → CERN migration. Helmholtz read-only 15 July.
 
 The call was almost entirely about AI; RF section reviews and Mattermost were not discussed live.
 
-**Fotis's five-point draft AI statement.** Fotis shared five initial points he intends to feed into the policy brief, already used informally as input for Guido's EU ESC talk and discussed briefly at MARB. Not finalised, offered for comment:
-1. Software must be recognised as the necessary substrate for AI — without software, AI is just files/weights.
-2. Track and flag when code is AI-generated vs human-authored/curated.
-3. Frame explainability/traceability as a software-quality dimension; fund tooling/infrastructure that can audit AI-generated code.
-4. Fund software maintenance as a centrally-funded activity in its own right ("the hill Fotis will die on") — code generation is now cheap, maintaining and supporting it is not, and requires human judgement.
-5. Define governance for AI agents acting as "software authors" before the line between machine- and human-authored code becomes too blurred to draw.
+**Fotis's draft AI statement.** Fotis shared the six points now recorded under item A above — intended to feed the policy brief, already used informally as input for Guido's EOSC talk and discussed briefly at MARB. Not finalised, offered for comment.
 
-Feedback on the five points:
+Feedback on the points:
 - Neil supports point 4 but flagged a risk: funding for maintenance shouldn't come with an implicit obligation to maintain everything AI generates. Suggested TF2 needs to work out how point 4 ties to point 1 and to software quality more broadly, not just maintenance.
 - Caterina agreed funding is central but said point 4 needs very careful wording — funders (especially in the UK) are already primed to believe software is disposable/regenerable, so the statement needs to make the real cost of AI-generated code visible before asking for money. She rated point 5 as equally important from a training/culture angle: she is seeing students on Google Summer of Code effectively delegating tasks to AI rather than learning, which she sees as damaging to open-source contributor culture. Suggested point 5 could work as a no-cost policy recommendation (e.g. aimed at a body like OECD) since it doesn't require funding, just guidance.
 - Michael Sparks made a broader point: as AI produces more code, the domain- and software-engineering expertise needed to check correctness becomes scarcer relative to output volume, not more abundant — the opposite of the usual "AI creates abundance" framing. Argued the discussion should focus on people and roles in the process (who reads the paper, who checks the spec, who verifies the code against it) rather than just "human in the loop"; some of these roles can be automated when reproducing known work, but extending into new work still needs people, so throughput is capped by people, not machines.
 - Giacomo pushed back gently on how widespread the "software is free now" belief actually is, at least in his own environment, and drew on RSMF experience: funding decisions should follow research-software impact and user base rather than lines of code, since code volume alone is now cheap to produce.
 - Fotis's own synthesis: most current AI-related problems trace back to poor software quality; the throughline across all five points is that we need to distinguish fully-AI-generated code from code that has been curated/reviewed by humans, and fund the curation/maintenance effort directly rather than just the initial creation.
-- Shoaib raised a gap: the whole statement assumes a baseline level of AI knowledge and practice that most people don't have. Proposed adding an explicit capacity-building element — training material and a commitment to raising the general skill level so people can actually engage with the position once published.
+- Shoaib raised a gap: the statement assumes a baseline level of AI knowledge and practice that most people don't have, and proposed an explicit capacity-building element — training material and a commitment to raising the general skill level so people can actually engage with the position once published. (Now point 6 above.)
 
 **Timeline and ownership.** Fotis said the policy brief deadline is "February... March will probably be the deadline" (transcript unclear which is authoritative — worth confirming, since prior planning assumed Feb 2027). Plan: iterate through the summer and into Sept/Oct via whatever channels are available (weekly management meetings, etc.), aim for a reasonably mature version by the November stakeholder event to gather wider external feedback, then two more months to finalise. He is also planning to add non-AI-related points to the same brief (e.g. European software sovereignty). For now he is the sole owner/editor; document lives on SharePoint/Mattermost boards, not yet in the ai-everse GitHub repo — he had no strong objection to moving it there, just hasn't done so.
 
