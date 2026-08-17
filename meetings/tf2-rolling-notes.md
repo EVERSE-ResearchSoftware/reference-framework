@@ -2,48 +2,44 @@
 
 Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 
-# TF2 Meeting Agenda — 13 July 2026
+# TF2 Meeting Minutes — 13 July 2026
 
-**Date:** Monday, 13 July 2026 **Time:** 11:00 UK / 12:00 CET **Location:** <https://us02web.zoom.us/j/83181471617>
+**Date:** Monday, 13 July 2026 **Time:** 11:00 UK / 12:00 CET
 
-**Attending:** Fotis, Carlos (from 11:15)
+**Attending:** Giacomo Peru, Neil Chue Hong, Fotis, Caterina Doglioni, Michael Sparks, Natalia (new OpenAIRE contact), Hugo Bacard, Shoaib Sufi, Daniel Garijo
 
-**Apologies:**
+**Apologies:** Carlos (didn't join)
 
-## A. AI position
+The whole call was about AI. RF section reviews and the Mattermost migration were not discussed — status only, tracked on GitHub (PR #26, PR #30 still open and unreviewed).
 
-No agreed EVERSE position on AI. Feeds Fotis's policy brief, due February 2027.
+**1. Fotis's draft AI statement** (feeds his policy brief, due early 2027)
 
-## B. Michael Sparks document
+Six points, shared for feedback, not finalised:
+1. Fund research software properly — AI can't work without it.
+2. Track who/what wrote code (human vs AI) before that becomes impossible to tell.
+3. Treat AI-generated code problems as a software-quality issue — fund tools that check it (builds on RSQKit).
+4. Fund maintenance, not just new code — AI made writing code cheap, but someone still has to look after it.
+5. Set rules now for AI agents as "authors" — before it's too late to define this properly.
+6. Train people, not just AI — added after Shoaib pointed out most people don't know enough about AI yet to engage with any of this.
 
-"How do you use AI to develop quality research software" — Spectrum of AI Intensity framework. RSQKit split targeted for today.
+General agreement, with pushback: Neil worried point 4 shouldn't force projects to maintain everything AI creates. Caterina wants the "software is free" myth debunked before asking funders for money, and is separately worried about students leaning on AI instead of learning. Michael's counterpoint: as AI writes more code, the humans able to check it become the bottleneck, not the machines. Daniel and Caterina suggested two more angles worth adding: responsibility/accountability, and environmental sustainability (link to RSQKit's green software page) — not yet folded in.
 
-Google Doc: <https://docs.google.com/document/d/1FrI7I1yaQORtEi7BmFY34CvMAFcz2hskT4cUdlYpZa4/edit>
-Local copy: `~/Desktop/Desktop2026_07_07/task_How_do_you_use_AI_to_develop_quality_research_software.docx`
+**2. Who "owns" AI-written code?** Live debate, unresolved: Shoaib says AI can't be an author — a human must stay accountable (cited a study showing journals agree). Daniel disagreed — he already gets PRs and emails from AI agents. Neil noted that legally, accountability can sit with a company, not just a person. Feeds back into points 2/5 above.
 
-## C. HSF/ESCAPE collaboration
+**3. Michael's "AI Intensity" document** — a diagram showing a spectrum from no-AI to heavy-AI use (deliberately not a "ladder" — more AI isn't automatically better). Well received. Ask: a human-edited final version (so it isn't dismissed as AI-written) and make it more actionable — what to actually do at each level.
 
-Caterina Doglioni: HSF/ESCAPE AI-assisted-coding guidelines, lighter-weight than RSQKit, proposed co-organised with EVERSE.
+**4. Hugo's chatbot/TeSS tool** — still stuck on compute and sign-off. Paused for time, picked up in a separate meeting after 24 August.
 
-## D. What do we build
+**5. HSF/ESCAPE event, 29 July** — Caterina and Michael giving a talk on responsible AI coding, using RSQKit material, not the unfinished policy brief.
 
-No model training. Guidance and skills/prompts. MCPs undecided.
-
-Hugo's prototypes (TeSS metadata agent, RSQKit chatbot) — blocked on compute and authorisation, no change since April.
-
-## E. AI webinar
-
-Joint with ReSA (Michelle Barker), target October/November. Contact not yet made.
-
-## F. RF section reviews
-
-PR #26 (sustainability) and PR #30 (Three-Tiers View) open, unreviewed. #12–#15 unowned. Status only — tracked on GitHub.
-
-## G. AOB
-
-Mattermost → CERN migration. Helmholtz read-only 15 July.
+**Next meeting: 17 August** — not everyone's first choice (some wanted the 24th) but the best available compromise. Hugo will miss it either way (on leave).
 
 ## Key actions
+
+- Giacomo: organise a follow-up meeting after 24 Aug with Hugo, Fotis, Shoaib, Michael on the chatbot
+- Giacomo: review PR #26 (overdue)
+- Michael: bring his document back to the 17 Aug agenda
+- Fotis: consider adding the responsibility/sustainability points and Shoaib's citation to the AI statement
 
 ---
 
