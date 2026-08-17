@@ -2,6 +2,12 @@
 
 Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 
+# TF2 Meeting Minutes — 17 August 2026
+
+**Date:** Monday, 17 August 2026
+
+**Agenda item — GenAI/ReSA webinar correspondence:** Since the 13 July meeting, discussion moved from the proposed 21 July call to direct email correspondence (29–30 Jul) between Michelle Barker (ReSA), Carlos Martinez Ortiz, and Giacomo (cc Kim Hartley, John Apostolakis). Carlos proposed an October webinar on GenAI training for research software (speakers: Kamilla Kopec-Harding, Fenne, Toby Hodges). Barker flagged this risks duplicating Toby Hodges's existing monthly AI-training discussion and a recent STaRS session, and suggested either speaking at Toby's series instead or picking a different angle (community-building platform, e.g. via m-TESS/OA5, or "what works" case studies rather than curricula). Barker's reply also raised an unanswered question: does EVERSE want to *lead/co-lead* one of the 9 themes from ReSA's report (noted as "tricky given your funding situation"), or just provide infrastructure? **Thread has been unanswered for ~2.5 weeks — needs a decision today before replying.**
+
 # TF2 Meeting Minutes — 13 July 2026
 
 **Date:** Monday, 13 July 2026 **Time:** 11:00 UK / 12:00 CET
