@@ -2,6 +2,36 @@
 
 Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 
+# TF2 Meeting Agenda — 21 September 2026
+
+**Date:** Monday, 21 September 2026 **Time:** 10:00 UK / 11:00 CET **Location:** <https://us02web.zoom.us/j/83181471617>
+
+**Attending:**
+
+**Apologies:**
+
+## A. Carried-forward actions (status only)
+
+PR #26 (sustainability, Thomas) and PR #30 (Three-Tiers View wording) still open, unreviewed — #26 now overdue across six meetings running. ai-everse #1–#4 unchanged, no PRs opened against the repo. Hugo/Fotis/Shoaib/Michael chatbot follow-up (flagged "after 24 Aug") never actually scheduled.
+
+## B. Webinar status
+
+Two threads converged in late August: Barker/ReSA's theme-7 webinar (RSE-manager/OSS-leader playbook, RSQKit as worked example, meant to be announced at IRSC 7 Sept) and EVERSE's own Network webinar series wanting Carlos as speaker on AI and research software (second half of October). Calls held 31 Aug (Barker, Carlos, Giacomo) and 27 Aug (wider group — Giacomo, Carlos, Stefan Roiser, Eleonora Parisi, Alexia Yiannouli, John Apostolakis) to reconcile scope and co-organiser labelling. Outcome not yet written up anywhere — to report live.
+
+## C. Faruk Diblen's rseng-agent-skills
+
+67 AI-agent skills for research software engineering (`github.com/fdiblen/rseng-agent-skills`), content adapted from RSQKit's `rseng-quality-framework`. Thomas Vuillaume asked on-list whether this becomes "RSQKit for AI agents" — Faruk confirmed yes in intent, MCP server in progress. Directly relevant to Hugo's blocked chatbot/skills work (ai-everse #2/#3/#4) and to Fotis's AI-statement point 3 (tooling to audit AI-generated code).
+
+## D. Michael's AI Intensity document
+
+Still needs a live agenda slot — deferred from July and August. Natalia's ask (make it actionable, audience-tagged) and Caterina's ask (human-edited final pass) still unaddressed.
+
+## E. AOB
+
+## Key actions
+
+---
+
 # TF2 Meeting Minutes — 17 August 2026
 
 **Date:** Monday, 17 August 2026
