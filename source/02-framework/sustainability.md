@@ -87,7 +87,7 @@ The following is a non-exhaustive list of tools that can help assess or improve 
   - Software Management Plans
 - **Archival:**
   - Software Heritage (SWH), Zenodo (via GitHub/GitLab integration)
-- **Citation*:**
+- **Citation:**
   - Metadata Standards: CITATION.cff, CodeMeta
 
 There are many open-source tools available in this space to support these practices.
