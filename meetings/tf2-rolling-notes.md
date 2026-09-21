@@ -10,25 +10,33 @@ Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 
 **Apologies:**
 
-## A. Carried-forward actions (status only)
+## A. Carried-forward actions — to be discussed
 
-PR #26 (sustainability, Thomas) and PR #30 (Three-Tiers View wording) still open, unreviewed — #26 now overdue across six meetings running. ai-everse #1–#4 unchanged, no PRs opened against the repo. Hugo/Fotis/Shoaib/Michael chatbot follow-up (flagged "after 24 Aug") never actually scheduled.
+## B. AI webinar (Barker/ReSA) — to be discussed
 
-## B. Webinar status
+## C. RSQKit AI pages — to be discussed
 
-Two threads converged in late August: Barker/ReSA's theme-7 webinar (RSE-manager/OSS-leader playbook, RSQKit as worked example, meant to be announced at IRSC 7 Sept) and EVERSE's own Network webinar series wanting Carlos as speaker on AI and research software (second half of October). Calls held 31 Aug (Barker, Carlos, Giacomo) and 27 Aug (wider group — Giacomo, Carlos, Stefan Roiser, Eleonora Parisi, Alexia Yiannouli, John Apostolakis) to reconcile scope and co-organiser labelling. Outcome not yet written up anywhere — to report live.
+## D. Faruk Diblen's rseng-agent-skills — to be discussed
 
-## C. Faruk Diblen's rseng-agent-skills
+## E. Michael's AI Intensity document — to be discussed
 
-67 AI-agent skills for research software engineering (`github.com/fdiblen/rseng-agent-skills`), content adapted from RSQKit's `rseng-quality-framework`. Thomas Vuillaume asked on-list whether this becomes "RSQKit for AI agents" — Faruk confirmed yes in intent, MCP server in progress. Directly relevant to Hugo's blocked chatbot/skills work (ai-everse #2/#3/#4) and to Fotis's AI-statement point 3 (tooling to audit AI-generated code).
+## F. AI session — Stakeholders Event (24 Nov) — to be discussed
 
-## D. Michael's AI Intensity document
+## G. AOB
 
-Still needs a live agenda slot — deferred from July and August. Natalia's ask (make it actionable, audience-tagged) and Caterina's ask (human-edited final pass) still unaddressed.
+## Actions
 
-## E. AOB
-
-## Key actions
+- Giacomo — review PR #26: Pending
+- Giacomo — merge PR #30: Pending
+- Giacomo — merge PR #37 (this agenda): Pending
+- Giacomo — organise Hugo/Fotis/Shoaib/Michael follow-up: Pending
+- Giacomo — reply to Barker (lead/co-lead decision): Pending
+- Giacomo — post ai-everse #2 comment: Pending
+- Giacomo — send Faruk reply draft: Pending
+- Fotis — iterate AI statement: Pending
+- Michael — revise AI Intensity doc: Pending
+- Hugo — send Caterina HSF/ESCAPE summary: Pending
+- Carlos — industry-survey contacts (TNO/RIVM/Deltares/KNMI): Pending
 
 ---
 
