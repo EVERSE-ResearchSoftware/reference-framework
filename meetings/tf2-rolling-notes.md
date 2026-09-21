@@ -10,21 +10,7 @@ Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 
 **Apologies:**
 
-## A. Carried-forward actions — to be discussed
-
-## B. AI webinar (Barker/ReSA) — to be discussed
-
-## C. RSQKit AI pages — to be discussed
-
-## D. Faruk Diblen's rseng-agent-skills — to be discussed
-
-## E. Michael's AI Intensity document — to be discussed
-
-## F. AI session — Stakeholders Event (24 Nov) — to be discussed
-
-## G. AOB
-
-## Actions
+## A. Carried-forward actions
 
 - Giacomo — review PR #26: Pending
 - Giacomo — merge PR #30: Pending
@@ -37,6 +23,22 @@ Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 - Michael — revise AI Intensity doc: Pending
 - Hugo — send Caterina HSF/ESCAPE summary: Pending
 - Carlos — industry-survey contacts (TNO/RIVM/Deltares/KNMI): Pending
+
+## B. AI webinar (Barker/ReSA)
+
+## C. RSQKit AI pages
+
+<https://everse.software/RSQKit/ai>
+
+## D. Faruk Diblen's rseng-agent-skills
+
+<https://github.com/fdiblen/rseng-agent-skills>
+
+## E. Michael's AI Intensity document
+
+## F. AI session — Stakeholders Event (24 Nov)
+
+## G. AOB
 
 ---
 
