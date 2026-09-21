@@ -6,39 +6,75 @@ Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 
 **Date:** Monday, 21 September 2026 **Time:** 10:00 UK / 11:00 CET **Location:** <https://us02web.zoom.us/j/83181471617>
 
-**Attending:**
+**Attending:** Giacomo Peru, Michael Sparks, Fotis Psomopoulos, Hugo Bacard, Thomas Vuillaume, Faruk Diblen, Jason Maassen, Selim (name as heard in transcript, identity unconfirmed)
 
-**Apologies:**
+**Apologies:** Not recorded
 
 ## A. Carried-forward actions
 
-- Giacomo — review PR #26: Pending
+- Giacomo — merge PR #26: Pending (in progress)
 - Giacomo — merge PR #30: Pending
 - Giacomo — merge PR #37 (this agenda): Pending
-- Giacomo — organise Hugo/Fotis/Shoaib/Michael follow-up: Pending
-- Giacomo — reply to Barker (lead/co-lead decision): Pending
-- Giacomo — post ai-everse #2 comment: Pending
-- Giacomo — send Faruk reply draft: Pending
-- Fotis — iterate AI statement: Pending
-- Michael — revise AI Intensity doc: Pending
-- Hugo — send Caterina HSF/ESCAPE summary: Pending
-- Carlos — industry-survey contacts (TNO/RIVM/Deltares/KNMI): Pending
+- Giacomo — reply to Barker (lead/co-lead decision): Done
+- Giacomo — confirm Michael + Faruk as AI-webinar speakers: Pending
+- Giacomo — open issue for Michael to draft AI-consideration bullet points for the Reference Framework: Pending
+- Giacomo/Thomas — 1:1 chat on Reference Framework AI-relevance review: Pending
+- Fotis — iterate AI statement: Pending (blocked on EVERSE no-cost-extension outcome, expected by October)
+- Michael — AI Intensity doc: Done, superseded by the published RSQKit AI pages (item C)
+- Thomas — review Reference Framework for content outdated by AI developments: Pending
+- Hugo — send Caterina summary of RAG/chatbot work: Pending (still owed)
+- Hugo — post EVERSE-compliance scanning tool notes in ai-everse repo: Pending
+- Faruk — post progress update on rseng-agent-skills reception/results: Pending
+- Giacomo — organise Stakeholders-Event AI-session prep meeting: Done, booked and going ahead
+- Carlos — industry-survey contacts (TNO/RIVM/Deltares/KNMI): Pending (not discussed today, carried forward)
 
 ## B. AI webinar (Barker/ReSA)
+
+Topic confirmed as an "AI playbook" (institutional AI guidance), one of ReSA's post-Edinburgh-workshop themes. Michael and Faruk both invited as speakers — Giacomo to confirm.
 
 ## C. RSQKit AI pages
 
 <https://everse.software/RSQKit/ai>
 
+Live demo by Michael. Replaces the old AI Intensity doc — reorganised around an AI-autonomy spectrum with use-case and per-practice pages; feedback via each page's beta-guidance link. Well received at RSECon.
+
 ## D. Faruk Diblen's rseng-agent-skills
 
 <https://github.com/fdiblen/rseng-agent-skills>
 
+Live demo by Faruk. Skills + hooks/pipeline enforce agent behaviour across the dev lifecycle; testing time/token/cost trade-offs against code quality. Some overlap with RSQKit, not a 1:1 match (Jason's question, open). Presenting at AI4RSE Göttingen this week.
+
 ## E. Michael's AI Intensity document
+
+Superseded — folded into the published RSQKit AI pages (item C). No longer needs its own slot.
 
 ## F. AI session — Stakeholders Event (24 Nov)
 
+Prep meeting with Michelle Barker, Caterina Doglioni, Dan Katz and Guido Juckeland confirmed and going ahead.
+
 ## G. AOB
+
+Reference Framework needs an AI-relevance review (Thomas); Michael assigned an issue to draft AI-consideration bullet points. Next meeting: **19 October 2026**.
+
+## Minutes
+
+**Actions review:** PR #26 and #30 both still open, unreviewed/unmerged — Giacomo acknowledged #26 is overdue and committed to merging it shortly. Reply to Barker — done. Fotis's AI-statement action has no progress: his time is going into EVERSE's no-cost-extension request (6 months asked, low confidence — "underspend is not a good reason" — decision expected by October at the latest); he can resume the policy document once that's resolved. Michael's "AI Intensity doc" action is resolved by the newly published RSQKit AI pages (below). Hugo's "send Caterina a summary" action was initially proposed for deletion (nobody could recall the context) until Michael clarified it's the still-outstanding summary of Hugo's RAG/chatbot work — action stays open.
+
+**RSQKit AI pages (Michael Sparks):** Live demo of the new AI section of RSQKit — an evolution of the earlier "AI Intensity" document, reformatted and split into a high-level overview, cross-cutting guidance, and individual practice pages organised along an AI-autonomy/intensity spectrum (no AI use → near-autonomous). Added a "use cases across the spectrum" section per earlier feedback from Hugo, plus a tooling/mechanisms page flagged as needing frequent revision. Every page links to a "beta guidance" feedback channel. Presented at RSECon to a well-received mixed audience — both AI-sceptics and AI-enthusiasts found it useful. Michael is the sole author so far and credits contributors by page (e.g. Hugo for the use-cases idea).
+
+**AI webinar update (Giacomo):** The Barker/ReSA webinar topic is confirmed as an "AI playbook" — institutional AI guidance, one of the themes from ReSA's post-Edinburgh-workshop report. Michael and Faruk were both invited as prospective speakers.
+
+**Faruk Diblen — rseng-agent-skills:** Live demo of the skills repo — a large set of coding-agent instructions covering RSE best practice, plus `hooks`/`pipeline` folders that try to make agents actually follow those instructions across development phases (setup, development/testing, wrap-up/documentation), including a bundled snapshot of the Research Software Directory to nudge reuse over reinvention. Works with Claude, Codex, Gemini and others. Known trade-off: higher token cost and time; Faruk is running a test matrix (varied task types and user seniority) measuring time/tokens/cost and assessing output quality via EVERSE indicators/pipelines. Not presented at RSECon (released just before it); will be presented this week at the AI4RSE workshop in Göttingen. Jason Maassen raised an open question — does RSQKit (human-facing) content match or overlap with the skills (agent-facing) content, or are there gaps on either side? Faruk: some overlap and cross-references, but agent-specific issues aren't covered 1:1 by RSQKit.
+
+**Reference Framework and AI (Thomas Vuillaume):** Thomas asked whether the Reference Framework itself will be updated in light of AI developments — e.g. the software-tiers chapter may need revisiting, since AI has made it trivial to reach "Tier 2" without a corresponding gain in importance. Giacomo agreed this is open for discussion, noting a related point from a recent RSQKit hackathon (organised by Michael and Shoaib) that the Reference Framework's role may need to narrow towards linking out to RSQKit as the living knowledge resource, rather than duplicating content. Michael offered a set of AI-related considerations that hold regardless of the underlying model: EU dependency/sovereignty risk from US-based models, LLM "temperature"/non-determinism as a cause of agents going off-track, and current LLMs' tendency to "smooth out" the novel/innovative part of research when asked to reimplement a paper. Giacomo will open an issue for Michael to draft this as a bullet-point list; Thomas will review the whole Reference Framework for content that may be outdated by AI, coordinating with the AI statement; Giacomo and Thomas will also have a separate 1:1 chat on this before the next Reference Framework version cycle starts.
+
+**Hugo Bacard:** Working on integrating Michael's AI-intensity/spectrum concept as a pre-flight assessment step for coding assistants (e.g. OpenCode) — an interview-style step to calibrate how much AI autonomy a user wants before generating a plan and code. Michael was supportive, framing it as a form of "custom harness." Separately, Hugo (with David) is building a lightweight tool to scan a repository against EVERSE/RSQKit recommendations and report compliance — earlier-stage than Faruk's work, to be demoed at a future meeting. Giacomo reminded the group the ai-everse repo is still largely empty and open for this kind of work-in-progress.
+
+**Fotis Psomopoulos:** No progress on the AI statement — see actions review above.
+
+**Stakeholders Event AI session (Giacomo):** Confirmed the prep meeting between Michelle Barker, Dan Katz, Caterina Doglioni and Guido Juckeland is booked and going ahead.
+
+**AOB / wrap-up:** Next TF2 meeting: **19 October 2026**. Fotis's agenda link shared in chat was broken/mistyped — flagged live, not resolved by meeting close.
 
 ---
 
