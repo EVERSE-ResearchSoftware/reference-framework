@@ -2,6 +2,37 @@
 
 Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 
+# TF2 Meeting Agenda — 19 October 2026
+
+**Date:** Monday, 19 October 2026 **Time:** 10:00 UK / 11:00 CET **Location:** <https://us02web.zoom.us/j/83181471617>
+
+## A. Carried-forward actions
+
+- PR #26 — Thomas's rewrite of the sustainability chapter, including a new Archival & Citation table; the build is currently broken (LuaLaTeX error), needs attending.
+- PR #30, #37 — merged; Three-Tiers wording and the 21 Sept agenda/minutes are now on upstream `main`.
+- Issue #38 (AI considerations for the RF) — opened 21 Sept, still no comments or draft; needs an owner.
+- ai-everse #1 — AI and openness of repositories.
+- ai-everse #2 — Define use case for RSQKit AI assistant.
+- ai-everse #3 — Identify compute resources.
+- ai-everse #4 — Confirm authorisation.
+
+## B. AI webinar
+
+- Topic: "Playbooks for RSE managers and open-source software project leaders" (ReSA's GenAI vision, zenodo.org/records/20320884)
+- Speakers: Michael Sparks, Faruk Diblen, Kamilla Kopec-Harding (accepted 8 Oct, low-prep slot reporting back from ReSA workshop)
+- When: roughly w/c 9 Nov
+
+## C. 24 Nov AI session (Stakeholders Event)
+
+- Michelle (13 Oct) is looking for clarification on the session's goals — unclear if Fotis's July six-point list still applies; wants this settled before finalising content. She's raised the EOSC OA7 concept note and three candidate Slido poll questions, and added slides to the shared deck.
+- 20/40 timing split still not reflected on Indico — undone.
+- Talking-points doc untouched since Giacomo's 5 Oct edit.
+- Deadline: key messages + keynote outline by end of October.
+
+## D. Fotis's AI statement
+
+---
+
 # TF2 Meeting Agenda — 21 September 2026
 
 **Date:** Monday, 21 September 2026 **Time:** 10:00 UK / 11:00 CET **Location:** <https://us02web.zoom.us/j/83181471617>
