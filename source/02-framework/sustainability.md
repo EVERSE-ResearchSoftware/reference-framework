@@ -86,7 +86,7 @@ The following is a non-exhaustive list of tools that can help assess or improve 
   - Source code scanning tools: including License, copyright and export control compliance tools (e.g. FOSSology, SPDX tools)
   - Software Management Plans
 - **Archival:**
-  - Software Heritage (SWH), Zenodo (via GitHub/GitLab integration)
+  - Software Heritage (SWH), Zenodo (via [GitHub integration](https://help.zenodo.org/docs/github/); GitLab projects can use [manual uploads](https://help.zenodo.org/docs/github/archive-software/manual-upload/) or separately configured API tooling)
 - **Citation:**
   - Metadata Standards: CITATION.cff, CodeMeta
 
