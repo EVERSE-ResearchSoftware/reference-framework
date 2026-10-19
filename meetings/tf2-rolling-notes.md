@@ -18,16 +18,15 @@ Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 
 ## B. AI webinar
 
-- Topic: "Playbooks for RSE managers and open-source software project leaders" (ReSA's GenAI vision, zenodo.org/records/20320884)
-- Speakers: Michael Sparks, Faruk Diblen, Kamilla Kopec-Harding (accepted 8 Oct, low-prep slot reporting back from ReSA workshop)
-- When: roughly w/c 9 Nov
+- Tue 10 Nov, Michael Sparks and Faruk Diblen
+- Topic: playbooks for RSE managers and OSS leaders
+- Promotion via the ReSA newsletter, deadline 23 Oct
 
 ## C. 24 Nov AI session (Stakeholders Event)
 
-- Michelle (13 Oct) is looking for clarification on the session's goals — unclear if Fotis's July six-point list still applies; wants this settled before finalising content. She's raised the EOSC OA7 concept note and three candidate Slido poll questions, and added slides to the shared deck.
-- 20/40 timing split still not reflected on Indico — undone.
-- Talking-points doc untouched since Giacomo's 5 Oct edit.
-- Deadline: key messages + keynote outline by end of October.
+- Michelle Barker keynote, then town hall moderated by Caterina, with Michelle, Guido and Dan on the panel
+- Michelle's slides being reworked
+- Key messages due end of October
 
 ## D. Fotis's AI statement
 
