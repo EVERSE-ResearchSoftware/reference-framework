@@ -56,7 +56,7 @@
 \def\fps@figure{htbp}
 \makeatother
 
-\usepackage{longtable,booktabs,array}
+\usepackage{longtable,booktabs,array,calc}
 \providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 \usepackage{fancyhdr}
