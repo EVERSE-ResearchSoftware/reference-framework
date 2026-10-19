@@ -28,7 +28,7 @@ The following table categorizes practices based on the software's role within th
 
 | **Practice** | **Tier 1: Analysis Code** | **Tier 2: Prototype tools** | **Tier 3: Research Software Infrastructure** | 
 | :--- | :--- | :--- | :--- | 
-| **Env. & Dependency Management** | Minimal (Lockfiles) | Recommended (Containers/Venv) | Mandatory (Full Reproducibility) | 
+| **Env. & Dependency Management** | Minimal (Lockfiles) | Recommended (Lockfiles plus containers/virtual environments for isolation) | Mandatory (Full Reproducibility) |
 | **Archival & Citation** | Recommended (DOI) | Mandatory | Mandatory | 
 | **Software Maintenance** | Minimal | Recommended |Mandatory | 
 | **CI/CD** | Optional | Recommended | Mandatory | 
