@@ -60,4 +60,10 @@ The following is a non-exhaustive list of tools that can help assess or improve 
 - Zenodo (https://zenodo.org/) - open repository for research software publication
 - Software Heritage (https://www.softwareheritage.org/) - universal archive for software source code
 
+**Examples of indicators and related tools:**
+
+- `software_has_license` (Software has license): measured by howfairis, RSFC and SCANOSS; improved by Choose a License and REUSE.
+- `has_contribution_guidelines` (Software repository has contribution guidelines): improved by project templates such as the Fair Python Cookiecutter, which ship a `CONTRIBUTING` file; GitHub's community profile checks for its presence.
+- `has_active_contributors` (Project has active contributors beyond core maintainers) and `response_timeframe_ok` (Responses to issues and/or pull requests are done within a defined timeframe): measured by community health dashboards such as GrimoireLab and Augur.
+
 Note that these dimensions overlap partially with other dimensions (e.g. source code availability could also be categorized under FAIR, and Integration with OSS ecosystems could be seen as just a specification of the Technical Dimension of Compatibility). Despite this, the open source aspect is important enough to warrant separate attention. It allows those involved in research software to better integrate into the much broader world of open source software outside of academia. Speaking the same language as the OSS world makes it easier to get outside support, attract outside talent into academia, and vice versa improves career possibilities for RSEs outside of academia.

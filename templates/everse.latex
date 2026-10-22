@@ -57,6 +57,9 @@
 \makeatother
 
 \usepackage{longtable,booktabs,array,calc}
+\newcounter{none} % for unnumbered tables (pandoc >= 3.x)
+% Let long identifiers such as indicator names break after underscores
+\AtBeginDocument{\let\oldunderscore\_\renewcommand{\_}{\oldunderscore\allowbreak}}
 \providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 \usepackage{fancyhdr}
