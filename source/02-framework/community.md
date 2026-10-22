@@ -118,4 +118,11 @@ The following is a non-exhaustive list of tools that can help assess or improve 
 - All Contributors (https://allcontributors.org/) - recognising diverse contribution types
 - CRediT (Contributor Roles Taxonomy) - standardised contribution roles
 
+**Examples of indicators and related tools:**
+
+- `has_active_contributors` (Project has active contributors beyond core maintainers): measured by GrimoireLab, Augur and GitHub Insights; All Contributors helps by making non-code contributions visible.
+- `response_timeframe_ok` (Responses to issues and/or pull requests are done within a defined timeframe): measured by GrimoireLab and Augur.
+- `has_active_communication_channels` (Project has active communication channels): improved by setting up Discourse, Gitter or a mailing list.
+- `has_contribution_guidelines` (Software repository has contribution guidelines): checked by GitHub's community profile; Open Source Guides and Community Rule help write them.
+
 Note that community health is deeply interconnected with sustainability and open source practices. Effective community development requires not just tools but also intentional practices, inclusive cultures, and sustained engagement that evolve with the research software and its user base.
