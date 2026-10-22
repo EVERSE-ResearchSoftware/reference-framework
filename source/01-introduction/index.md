@@ -4,7 +4,7 @@
 
 The goal of this document is to provide an overview of the considerations and perspectives around research software quality being taken by the EVERSE project and to act as a guide to internal activity as well as a statement to those outside of the project of the approach being taken. The main scope is to connect various perspectives to software quality, excellence, and good practices.
 
-The Framework is structured around four main pillars, detailed in Section 2: Technical aspects (Section 2.1), FAIR Software (Section 2.2), Open Source Software (Section 2.3) and Sustainability (Section 2.4).
+The Framework is structured around quality dimensions and indicators, detailed in Section 2: Technical dimensions (Section 2.1), FAIR Software (Section 2.2), Open Source Software (Section 2.3), Sustainability (Section 2.4) and Community (Section 2.5).
 
 To address the diverse needs of the research software community, the Framework offers four distinct views, which are detailed in Section 3:
 
@@ -27,7 +27,7 @@ For additional context and examples, see: Defining Research Software: a controve
 
 ### 1.2.2 Research Software Quality
 
-We define "research software quality" as the degree to which software supports reliable, efficient, maintainable, and trustworthy research. Quality encompasses multiple dimensions including correctness, performance, maintainability, usability, robustness, and reproducibility, etc.
+We define "research software quality" as the degree to which software supports reliable, efficient, maintainable, and trustworthy research. Quality encompasses multiple dimensions including correctness, performance, maintainability, usability, robustness, and reproducibility, etc. These are fundamental technical aspects of software quality in general considered by software engineers regardless of whether they work in academia or industry. However, research software may place different emphasis on these dimensions and also focuses on other aspects.
 
 Quality research software enables researchers to trust, share, and build upon computational work, making science transparent and verifiable. FAIR software principles (Findable, Accessible, Interoperable, Reusable) represent a crucial subset of quality, ensuring software can be discovered, understood, and exercised by others whilst supporting long-term reproducibility and research integrity.
 
