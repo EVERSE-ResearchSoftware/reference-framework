@@ -2,6 +2,36 @@
 
 Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 
+# TF2 Meeting Agenda — 19 October 2026
+
+**Date:** Monday, 19 October 2026 **Time:** 10:00 UK / 11:00 CET **Location:** <https://us02web.zoom.us/j/83181471617>
+
+## A. Carried-forward actions
+
+- PR #26 — Thomas's rewrite of the sustainability chapter, including a new Archival & Citation table; the build is currently broken (LuaLaTeX error), needs attending.
+- PR #30, #37 — merged; Three-Tiers wording and the 21 Sept agenda/minutes are now on upstream `main`.
+- Issue #38 (AI considerations for the RF) — opened 21 Sept, still no comments or draft; needs an owner.
+- ai-everse #1 — AI and openness of repositories.
+- ai-everse #2 — Define use case for RSQKit AI assistant.
+- ai-everse #3 — Identify compute resources.
+- ai-everse #4 — Confirm authorisation.
+
+## B. AI webinar
+
+- Tue 10 Nov, Michael Sparks and Faruk Diblen
+- Topic: playbooks for RSE managers and OSS leaders
+- Promotion via the ReSA newsletter, deadline 23 Oct
+
+## C. 24 Nov AI session (Stakeholders Event)
+
+- Michelle Barker keynote, then town hall moderated by Caterina, with Michelle, Guido and Dan on the panel
+- Michelle's slides being reworked
+- Key messages due end of October
+
+## D. Fotis's AI statement
+
+---
+
 # TF2 Meeting Agenda — 21 September 2026
 
 **Date:** Monday, 21 September 2026 **Time:** 10:00 UK / 11:00 CET **Location:** <https://us02web.zoom.us/j/83181471617>
