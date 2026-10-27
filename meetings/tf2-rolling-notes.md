@@ -2,6 +2,62 @@
 
 Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 
+# TF2 Meeting Agenda — 19 October 2026
+
+**Date:** Monday, 19 October 2026 **Time:** 10:00 UK / 11:00 CET **Location:** <https://us02web.zoom.us/j/83181471617>
+
+**Attending:** Giacomo Peru (UEDIN), Michael Sparks, Daniel Garijo (UPM), Selim Kalayci (ELIXIR), Thomas Vuillaume (LAPP-CNRS), Faruk Diblen (NLeSC), Eleonora Parisi
+**Apologies:** Michael Sparks needs to leave by 10:25
+
+## A. Carried-forward actions
+
+- PR #26 — Thomas's rewrite of the sustainability chapter, including a new Archival & Citation table; the build is currently broken (LuaLaTeX error), needs attending.
+- PR #30, #37 — merged; Three-Tiers wording and the 21 Sept agenda/minutes are now on upstream `main`.
+- Issue #38 (AI considerations for the RF) — opened 21 Sept, still no comments or draft; needs an owner.
+- ai-everse #1 — AI and openness of repositories.
+- ai-everse #2 — Define use case for RSQKit AI assistant.
+- ai-everse #3 — Identify compute resources.
+- ai-everse #4 — Confirm authorisation.
+
+## B. AI webinar
+
+- Tue 10 Nov, Michael Sparks and Faruk Diblen
+- Topic: playbooks for RSE managers and OSS leaders
+- Promotion via the ReSA newsletter, deadline 23 Oct
+
+## C. 24 Nov AI session (Stakeholders Event)
+
+- Michelle Barker keynote, then town hall moderated by Caterina, with Michelle, Guido and Dan on the panel
+- Michelle's slides being reworked
+- Key messages due end of October
+
+## D. Fotis's AI statement
+
+## Minutes
+
+**Actions review:** PR #26 build issue to be checked by Giacomo and Thomas at their meeting on Wednesday 21 October. PRs #30 and #37 merged. Issue #38 stays with Michael, who has noted on the issue that he expects to progress it over the next month and welcomes corrections once a draft is up; Giacomo to add him as owner. ai-everse #1 (AI and openness of repositories): Giacomo to review the earlier TF2 discussion, summarise it for the next meeting, and link anything relevant to #38. ai-everse #2–#4 left open; owners absent and progress stalled.
+
+**AI webinar:** Joint EVERSE–ReSA webinar on Tuesday 10 November, one hour, on AI playbooks for RSE managers and OSS project leaders. Michael and Faruk present, roughly 20 minutes each, followed by audience Q&A. Michael's slides ready by 2 November. A short prep call this week aligns content and running order.
+
+**24 Nov AI session (Stakeholders Event):** Michelle Barker keynote (about 20 minutes), then a panel moderated by Caterina Doglioni with Michelle, Guido Juckeland and Dan Katz. Aim: show policymakers and funders that research software matters even more in the AI era. Remaining details go to the organising committee call the same afternoon. Daniel is moderating the event's panel on recognising research software as a scientific output.
+
+**Fotis's AI statement:** Deferred to the next meeting (Fotis absent). Possible link to the RSQKit AI pages noted.
+
+**Reference Framework:** Giacomo and Thomas meet on Wednesday 21 October to go through the RF section by section and identify what needs fixing before the end of the project.
+
+**AOB:** Next meeting date not set.
+
+## Key actions
+
+- Giacomo and Thomas — check PR #26 build; go through the RF and list fixes needed before project end (Wed 21 Oct)
+- Giacomo — add Michael as owner of #38
+- Giacomo — summarise the ai-everse #1 discussion for the next meeting; link relevant points to #38
+- Michael — progress #38 over the next month
+- Michael — webinar slides by 2 November
+- Faruk — complete Carlos's doodle for the webinar prep call
+
+---
+
 # TF2 Meeting Agenda — 21 September 2026
 
 **Date:** Monday, 21 September 2026 **Time:** 10:00 UK / 11:00 CET **Location:** <https://us02web.zoom.us/j/83181471617>
