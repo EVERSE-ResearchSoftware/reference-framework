@@ -6,9 +6,8 @@ Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 
 **Date:** Monday, 19 October 2026 **Time:** 10:00 UK / 11:00 CET **Location:** <https://us02web.zoom.us/j/83181471617>
 
-**Attending:** Giacomo Peru, Michael Sparks, Faruk Diblen, Eleonora Parisi, Daniel Garijo
-
-**Apologies:** Not recorded
+**Attending:** Giacomo Peru (UEDIN), Michael Sparks, Daniel Garijo (UPM), Selim Kalayci (ELIXIR), Thomas Vuillaume (LAPP-CNRS), Faruk Diblen (NLeSC), Eleonora Parisi
+**Apologies:** Michael Sparks needs to leave by 10:25
 
 ## A. Carried-forward actions
 
