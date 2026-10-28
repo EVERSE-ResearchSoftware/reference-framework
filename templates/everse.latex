@@ -44,6 +44,7 @@
 \setlength{\parskip}{6pt plus 2pt minus 1pt}
 
 \usepackage{graphicx}
+\setkeys{Gin}{keepaspectratio}
 \makeatletter
 \newsavebox\pandoc@box
 \newcommand*\pandocbounded[1]{%
