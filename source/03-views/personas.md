@@ -4,13 +4,17 @@ Research software quality considerations vary significantly depending on one's r
 
 ### Core Personas in Research Software
 
-The RSQKit identifies five primary personas within the research landscape, each with specific software quality interests and responsibilities:
+The RSQKit identifies seven primary personas within the research landscape, each with specific software quality interests and responsibilities:
 
 **Researcher who codes**: Scientists and researchers who develop software as part of their research activities, ranging from simple analysis scripts to more complex tools. Their primary focus is often on functionality and getting research results, though they benefit from guidance on maintainability and reproducibility practices.
 
 **Research Software Engineer (RSE)**: Professional software developers working in research contexts who bring software engineering expertise to research projects. They typically prioritize technical quality dimensions like maintainability, testability, and performance, while also understanding research-specific requirements.
 
 **Principal Investigator**: Research leaders responsible for project oversight, funding, and strategic direction. Their software quality interests often center on sustainability, compliance, risk management, and ensuring software supports research objectives and reproducibility.
+
+**Product Owner**: Responsible for ensuring that the software being developed delivers value to its intended users and stakeholders. They act as a bridge between principal investigators (project leaders), Research Software Engineers (RSEs) and infrastructure providers on one end, and users, institutional or community stakeholders on the other.
+
+**Project Manager**: Responsible for coordinating the successful delivery of software-related projects and managing various resources, including people, tasks and timelines. Their role focuses on planning, organisation, communication, risk management and ensuring that software development activities progress effectively and on time.
 
 **Policy Maker**: Individuals involved in developing guidelines, standards, and policies for research software at institutional, national, or international levels. They focus on frameworks for assessment, recognition, funding criteria, and alignment with broader research integrity goals.
 
