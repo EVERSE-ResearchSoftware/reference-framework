@@ -61,4 +61,13 @@ The tools listed below fall into two main categories: automated assessment tools
 - Five recommendations for FAIR software (https://fair-software.nl/, does not explicitly use FAIR4RS)
 - FAIR data self assessment tool (https://ardc.edu.au/resource/fair-data-self-assessment-tool/)
 
+**Examples of indicators and related tools:**
+
+- `software_has_license` (Software has license): measured by howfairis, F-UJI and RSFC; improved by REUSE and Choose a License.
+- `software_has_citation` (Software uses citation): measured by howfairis and SOMEF; improved by cffinit, which generates a `CITATION.cff` file.
+- `descriptive_metadata` (Software has descriptive metadata) and `codemeta_completeness` (CodeMeta completeness): measured by SOMEF; improved by the CodeMeta Generator and Somesy.
+- `persistent_and_unique_identifier` (Software has persistent and unique identifier): measured by RSFC and the FAIRsoft Evaluator; improved by the Zenodo GitHub integration, which assigns a DOI to each release.
+- `archived_in_software_heritage` (Software is archived in Software Heritage): measured by RSFC; improved by Software Heritage's "save code now" feature.
+- `listed_in_registry` (Software is listed in a registry): measured by howfairis.
+
 [^2]: FAIR Principles for Research Software (FAIR4RS Principles), https://zenodo.org/records/6623556.

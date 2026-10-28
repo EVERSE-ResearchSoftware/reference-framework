@@ -92,4 +92,12 @@ The following is a non-exhaustive list of tools that can help assess or improve 
 
 There are many open-source tools available in this space to support these practices.
 
+**Examples of indicators and related tools:**
+
+- `dependency_management` (Software has dependency management solution): improved by pixi, Poetry, Renovate and Dependabot; measured by SCANOSS.
+- `repository_workflows` (Software has ci/cd workflows in its repository): improved by GitHub Actions and GitLab CI/CD; measured by RSFC and SOMEF.
+- `software_test_coverage` (Software has sufficient test coverage): measured by gcov and pytest (with its coverage plugin).
+- `has_releases` (Software has releases): improved by Git tags and the Zenodo GitHub integration; measured by RSFC and SOMEF.
+- `archived_in_scholarly_repository` (Software is archived in a scholarly repository): improved by Zenodo and Software Heritage.
+
 [^3]: For governance frameworks, see Code for Society (https://www.codeforsociety.org/incubator/resources/governance-bibliography) and Community Rule (https://communityrule.info/).
