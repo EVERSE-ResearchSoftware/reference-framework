@@ -14,7 +14,7 @@ Each section has an owner responsible for its content. To claim a section, add y
 | :---------------------- | :-------------: | :---------: | :------------------ |
 | Your name | @username | Your affiliation | **Chapter-1:** Introduction ([#4](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/4)) |
 | Your name | @username | Your affiliation | **Chapter-2:** Framework overview ([#5](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/5)) |
-| Your name | @username | Your affiliation | **Chapter-2:** Technical dimensions ([#6](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/6)) |
+| Thomas Vuillaume | @vuillaut | LAPP, CNRS, Université Savoie Mont-Blanc | **Chapter-2:** Technical dimensions ([#6](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/6)) |
 | Your name | @username | Your affiliation | **Chapter-2:** FAIRness ([#7](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/7)) |
 | Your name | @username | Your affiliation | **Chapter-2:** Open Source Software ([#8](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/8)) |
 | Your name | @username | Your affiliation | **Chapter-2:** Sustainability ([#9](https://github.com/EVERSE-ResearchSoftware/reference-framework/issues/9)) |
