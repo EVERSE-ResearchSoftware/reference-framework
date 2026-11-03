@@ -115,11 +115,11 @@ $if(version)$
 $endif$
 \end{center}
 \vspace{2cm}
-$if(author)$
+$if(authors)$
 {\small Author(s):\par}
 \vspace{0.3cm}
-$for(author)$
-$author$\\[3pt]
+$for(authors)$
+$authors.given-names$ $authors.family-names$$if(authors.affiliation)$ ($authors.affiliation$)$endif$\\[3pt]
 $endfor$
 $endif$
 \vfill
