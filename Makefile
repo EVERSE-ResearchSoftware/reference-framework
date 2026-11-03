@@ -19,7 +19,8 @@ INPUTS := $(SRCDIR)/main.md \
 	$(SRCDIR)/03-views/science-clusters.md \
 	$(SRCDIR)/04-conclusions/index.md
 
-PANDOC_COMMON := --from markdown --standalone --resource-path=.:$(SRCDIR):$(SRCDIR)/figures
+PANDOC_COMMON := --from markdown --standalone --resource-path=.:$(SRCDIR):$(SRCDIR)/figures \
+	--metadata-file=CITATION.cff
 
 .PHONY: all pdf html markdown clean
 
@@ -34,7 +35,7 @@ markdown: $(BUILDDIR)/reference-framework.md
 $(BUILDDIR):
 	mkdir -p $(BUILDDIR)
 
-$(BUILDDIR)/reference-framework.pdf: $(INPUTS) $(TEMPLATE) | $(BUILDDIR)
+$(BUILDDIR)/reference-framework.pdf: $(INPUTS) $(TEMPLATE) CITATION.cff | $(BUILDDIR)
 	pandoc $(PANDOC_COMMON) \
 		--to pdf \
 		--pdf-engine=lualatex \
