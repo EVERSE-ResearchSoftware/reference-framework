@@ -66,6 +66,57 @@ At the March 2025 EVERSE General Assembly, the several available options listed 
   - Authenticity - Degree to which the identity of a subject or resource can be proved to be the one claimed.
   - Resistance - Degree to which the product or system sustains operations while under attack from a malicious actor.
 
-### 2.1.2 Research Software Quality Indicators
+### 2.1.2 Good Enough Practices and Examples by Dimension
+
+The ISO definitions above are precise but abstract. For each of the 9 dimensions, this section gives a plain-language question, a few practices that are good enough for most research software, and examples of tools and indicators. The lists are starting points for routing a practice or tool to a dimension, not checklists. Indicator names refer to the [EVERSE indicators](https://everse.software/indicators/).
+
+**Compatibility** - Does it work with the other tools in the same environment?
+
+- *Good enough practices:* use open, documented file formats (CSV, HDF5, NetCDF, FITS); document the supported operating systems and versions of key dependencies; provide an API or command-line interface so other tools can call it.
+- *Tools and indicators:* Snakemake or Nextflow for workflow integration; format validators for your community's file standards; `requirements_specified`.
+
+**Flexibility** - Can it adapt to a new environment or a larger workload?
+
+- *Good enough practices:* publish an installable package; keep settings in configuration files, not in the code; provide a container image or a documented install recipe.
+- *Tools and indicators:* pip, conda, Docker, Apptainer; `has_published_package`, `software_is_containerized`.
+
+**Functional suitability** - Does it do the scientific job correctly?
+
+- *Good enough practices:* compare results with known answers or a reference method; keep the validation cases in the repository; state what the software does and does not cover.
+- *Tools and indicators:* regression and benchmark datasets, domain test suites; `functional_correctness`.
+
+**Interaction capability** - Can people use it?
+
+- *Good enough practices:* write a README with install and first-run steps; add a tutorial or example notebook; make error messages say what went wrong and what to do.
+- *Tools and indicators:* Sphinx, MkDocs, Jupyter notebooks; `software_has_documentation`, `code_documentation_coverage_ok`.
+
+**Maintainability** - Can developers change it safely?
+
+- *Good enough practices:* keep the code under version control; run automated tests on every change; review changes before merging; keep dependencies listed and current.
+- *Tools and indicators:* Git, pytest, GitHub Actions or GitLab CI, linters, SonarQube; `version_control_use`, `software_has_tests`, `software_test_coverage`, `has_ci-tests`, `has_no_linting_issues`, `dependency_management`, `cyclomatic_complexity_ok`, `code_duplication_ok`.
+
+**Performance efficiency** - How fast is it, and what resources does it use?
+
+- *Good enough practices:* measure before optimising; record runtime and memory use for a reference case; note the hardware used.
+- *Tools and indicators:* profilers (cProfile, perf, Valgrind), benchmark suites; runtime and memory figures reported with releases.
+
+**Reliability** - Does it keep working?
+
+- *Good enough practices:* make runs reproducible by fixing versions and random seeds; fail with a clear message instead of wrong output; checkpoint long jobs so they can restart.
+- *Tools and indicators:* lock files and environment files, workflow managers; `passed_tests_ok`.
+
+**Safety** - Can it harm people, property or the environment?
+
+- *Good enough practices:* check inputs against physical or operational limits; warn before destructive actions; choose safe defaults. This matters most for software that controls instruments or feeds decisions.
+- *Tools and indicators:* input validation, assertions, review of hazards in the design notes.
+
+**Security** - Is it protected from malicious use?
+
+- *Good enough practices:* keep secrets out of the repository; update dependencies with known vulnerabilities; validate untrusted input.
+- *Tools and indicators:* Dependabot, OpenSSF Scorecard, CodeQL, gitleaks; `no_critical_vulnerability`, `no_leaked_credentials`, `static_analysis_common_vulnerabilities`, `uses_fuzzing`, `human_code_review_requirement`.
+
+Some topics sit between two dimensions. Place unit tests under Maintainability, user documentation under Interaction capability, benchmarks under Performance efficiency, containers under Flexibility, and reproducibility under Reliability.
+
+### 2.1.3 Research Software Quality Indicators
 
 The EVERSE indicators repository provides the canonical, up-to-date list of quality dimensions and their associated indicators: [https://everse.software/indicators/](https://everse.software/indicators/).
