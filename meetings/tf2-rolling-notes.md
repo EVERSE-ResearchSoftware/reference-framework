@@ -2,6 +2,36 @@
 
 Repository: <https://github.com/EVERSE-ResearchSoftware/reference-framework>
 
+# TF2 Meeting Agenda — 16 November 2026
+
+**Date:** Monday, 16 November 2026 **Time:** 10:00 UK / 11:00 CET **Location:** <https://us02web.zoom.us/j/83181471617>
+**Chair:** Carlos Martinez-Ortiz
+
+## A. Carried-forward actions
+
+- Giacomo and Thomas — check PR #26 build: Done (merged 21 Oct)
+- Giacomo and Thomas — go through the RF and list fixes before project end: Done (21 Oct)
+- Giacomo — add Michael as owner of #38: Done
+- Giacomo — summarise ai-everse #1 discussion, link to #38: Pending
+- Michael — progress #38: Pending
+- Michael — webinar slides by 2 November: Done
+- Faruk — complete Carlos's doodle for the webinar prep call: Done
+
+## B. AI webinar (10 Nov)
+
+## C. 24 Nov AI session (Stakeholders Event)
+
+## D. Reference Framework
+
+- <https://github.com/EVERSE-ResearchSoftware/reference-framework/pull/47>
+- <https://github.com/EVERSE-ResearchSoftware/reference-framework/pull/48>
+
+## E. Fotis's AI statement
+
+## F. AOB
+
+---
+
 # TF2 Meeting Agenda — 19 October 2026
 
 **Date:** Monday, 19 October 2026 **Time:** 10:00 UK / 11:00 CET **Location:** <https://us02web.zoom.us/j/83181471617>
